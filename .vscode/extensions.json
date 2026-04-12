@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "shd101wyy.markdown-preview-enhanced",
+        "davidanson.vscode-markdownlint",
+        "hediet.vscode-drawio",
+        "takumii.markdowntable",
+
+        "ms-vscode.cpptools", 
+        "ms-vscode.cpptools-themes",
+        
+        "njpwerner.autodocstring",  // docstring
+        "ms-python.mypy-type-checker",  // python 型チェック
+        "ms-python.python",  // python 環境
+        "ms-python.debugpy",  // python デバッグ用
+        "charliermarsh.ruff"  // python lint formatter用
+    ]
+}
