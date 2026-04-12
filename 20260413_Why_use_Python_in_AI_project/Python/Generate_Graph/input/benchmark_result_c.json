@@ -1,0 +1,14 @@
+{
+  "language": "C",
+  "repeat": 10,
+  "results": [
+    {"loop_count": 10, "avg_time_sec": 0.000001},
+    {"loop_count": 100, "avg_time_sec": 0.000001},
+    {"loop_count": 1000, "avg_time_sec": 0.000002},
+    {"loop_count": 10000, "avg_time_sec": 0.000009},
+    {"loop_count": 100000, "avg_time_sec": 0.000085},
+    {"loop_count": 1000000, "avg_time_sec": 0.000827},
+    {"loop_count": 10000000, "avg_time_sec": 0.008089},
+    {"loop_count": 100000000, "avg_time_sec": 0.083882}
+  ]
+}

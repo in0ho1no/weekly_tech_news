@@ -1,0 +1,38 @@
+{
+  "language": "Python",
+  "repeat": 10,
+  "results": [
+    {
+      "loop_count": 10,
+      "avg_time_sec": 0.0
+    },
+    {
+      "loop_count": 100,
+      "avg_time_sec": 0.0
+    },
+    {
+      "loop_count": 1000,
+      "avg_time_sec": 0.0
+    },
+    {
+      "loop_count": 10000,
+      "avg_time_sec": 0.0
+    },
+    {
+      "loop_count": 100000,
+      "avg_time_sec": 0.003125
+    },
+    {
+      "loop_count": 1000000,
+      "avg_time_sec": 0.0359375
+    },
+    {
+      "loop_count": 10000000,
+      "avg_time_sec": 0.3296875
+    },
+    {
+      "loop_count": 100000000,
+      "avg_time_sec": 3.284375
+    }
+  ]
+}
