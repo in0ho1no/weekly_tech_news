@@ -32,7 +32,7 @@ export_on_save:
 
 - 元ポスト: 特になし
 - 検討日: 26/04/12
-- ステータス: 検討中
+- ステータス: 共有済み
 - 共有日: 2026/04/20
 
 ### NTTデータの顧客向け開発における挑戦
@@ -45,3 +45,23 @@ export_on_save:
 - 関連記事:
   - [Zenn](https://zenn.dev/nttdata_tech/articles/8a010aff542625)
   - [日経の記事](https://www.nikkei.com/article/DGXZQOUC254OB0V21C25A2000000/)
+
+### 生成AI・チャットAI・AIエージェントの整理
+
+- [関連するQiita記事](https://qiita.com/retore/items/3688cf515c14f7471ed4)
+- 検討日: 26/04/18
+- ステータス: 共有済み。但し、ハーネスエンジニアリングというフレーズには一切触れていない。  
+- 共有日: 2026/04/27
+
+### その他雑メモ
+
+共有時に整理∪陳腐化したら消す
+
+クロコの安全な使い方
+https://dev.classmethod.jp/articles/claude-code-security-basics/
+
+4.7登場で余計なことはやめよう
+https://qiita.com/ot12/items/06420caf41a34a910c53
+
+クロコの資格
+https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/
