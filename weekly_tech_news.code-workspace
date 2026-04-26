@@ -9,8 +9,11 @@
 		"editor.minimap.enabled": false,
 		// カラーカスタマイズ
 		"workbench.colorCustomizations": {
-			"activityBar.background": "#e2df16b4",
-			"activityBar.foreground": "#06065df5",
+			"statusBar.background": "#16e24cb4",
+			"statusBar.foreground": "#06065df5",
+
+			"activityBarTop.background": "#16e24cb4",
+			"activityBarTop.foreground": "#06065df5",
 		},
 
 		// フォント設定

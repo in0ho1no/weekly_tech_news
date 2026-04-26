@@ -10,19 +10,22 @@
 
 ## 主な構成
 
-- [00_共通/template.md](00_共通/template.md)
-  - 記事用テンプレート
-- [00_共通/weekly_tech_news.md](00_共通/weekly_tech_news.md)
-  - 話題メモと進捗管理
-- [20260413_Why_use_Python_in_AI_project](20260413_Why_use_Python_in_AI_project)
-  - 現在作成済みの記事一式
-
-今後も`yyyymmdd_`で始まるフォルダを追加していく見込み。  
+- [00_共通/template.md](00_共通/template.md)  
+  記事用テンプレート
+- [00_共通/weekly_tech_news.md](00_共通/weekly_tech_news.md)  
+  話題メモと進捗管理
+- `yyyymmdd_記事タイトル`  
+  週ごとに作成する記事  
+  今後も`yyyymmdd_`で始まるフォルダを追加していく見込み。  
 
 ## 現在の記事
 
-- [20260413_Why_use_Python_in_AI_project/Why_use_Python_in_AI_project.md](20260413_Why_use_Python_in_AI_project/Why_use_Python_in_AI_project.md)
-  - Python が AI 関連プロジェクトで多く使われる理由を扱う記事
+- [20260413_AIプロジェクトで何故Pythonを利用するのか](20260413_AIプロジェクトで何故Pythonを利用するのか/20260413_AIプロジェクトで何故Pythonを利用するのか.md)  
+  Python が AI 関連プロジェクトで多く使われる理由を扱う記事
+- [20260420_トークンとコンテキストの関係](20260420_トークンとコンテキストの関係\20260420_トークンとコンテキストの関係.md)  
+  AIを利用するうえで必ず登場する要素であるトークンとコンテキストについて扱う記事
+- [20260427_生成AI・チャットAI・AIエージェントの違い](20260427_生成AI・チャットAI・AIエージェントの違い\20260427_生成AI・チャットAI・AIエージェントの違い.md)  
+誤解しやすい用語を整理する記事
 
 ## 補足
 
