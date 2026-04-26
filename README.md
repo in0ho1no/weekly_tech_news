@@ -20,10 +20,12 @@
 
 ## 現在の記事
 
-- [20260413_Why_use_Python_in_AI_project](20260413_Why_use_Python_in_AI_project/Why_use_Python_in_AI_project.md)  
+- [20260413_AIプロジェクトで何故Pythonを利用するのか](20260413_AIプロジェクトで何故Pythonを利用するのか/20260413_AIプロジェクトで何故Pythonを利用するのか.md)  
   Python が AI 関連プロジェクトで多く使われる理由を扱う記事
-- [20260420_Regarding_Relationship_Token_And_Context](20260420_Regarding_Relationship_Token_And_Context\Regarding_Relationship_Token_And_Context.md)  
+- [20260420_トークンとコンテキストの関係](20260420_トークンとコンテキストの関係\20260420_トークンとコンテキストの関係.md)  
   AIを利用するうえで必ず登場する要素であるトークンとコンテキストについて扱う記事
+- [20260427_生成AI・チャットAI・AIエージェントの違い](20260427_生成AI・チャットAI・AIエージェントの違い\20260427_生成AI・チャットAI・AIエージェントの違い.md)  
+誤解しやすい用語を整理する記事
 
 ## 補足
 
