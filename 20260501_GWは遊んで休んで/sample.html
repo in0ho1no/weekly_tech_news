@@ -43,10 +43,10 @@ button:hover {
   padding: 10px;
   border-radius: 6px;
 }
-.explanation a {
-  display: block;
-  margin-top: 5px;
-  color: #1a73e8;
+.rank {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 </style>
 </head>
@@ -57,6 +57,7 @@ button:hover {
   <div id="choices"></div>
   <p class="result" id="result"></p>
   <div class="explanation" id="explanation"></div>
+  <div class="rank" id="rank"></div>
   <button onclick="nextQuestion()">次の問題</button>
 </div>
 
@@ -100,6 +101,7 @@ const quiz = [
 ];
 
 let current = 0;
+let score = 0;
 
 function showQuestion() {
   const q = quiz[current];
@@ -127,17 +129,41 @@ function checkAnswer(choice) {
   if (choice === q.answer) {
     result.textContent = "正解！";
     result.style.color = "green";
+    score++;
   } else {
     result.textContent = "不正解… 正解は「" + q.answer + "」";
     result.style.color = "red";
   }
 
-  explanationDiv.innerHTML = q.explanation + '<a href="' + q.url + '" target="_blank">参考URLを見る</a>';
+  explanationDiv.innerHTML = q.explanation + '<br><a href="' + q.url + '" target="_blank">参考URLを見る</a>';
 }
 
 function nextQuestion() {
-  current = (current + 1) % quiz.length;
+  current++;
+
+  if (current >= quiz.length) {
+    showResult();
+    return;
+  }
+
   showQuestion();
+}
+
+function showResult() {
+  document.getElementById("question").textContent = "クイズ終了！";
+  document.getElementById("choices").innerHTML = "";
+  document.getElementById("result").textContent = "あなたの正解数: " + score + " / " + quiz.length;
+  document.getElementById("explanation").textContent = "";
+
+  const rankDiv = document.getElementById("rank");
+
+  if (score === quiz.length) {
+    rankDiv.textContent = "博士級！";
+  } else if (score >= 3) {
+    rankDiv.textContent = "なかなか詳しい！";
+  } else {
+    rankDiv.textContent = "もう一回チャレンジ！";
+  }
 }
 
 // 初期表示
