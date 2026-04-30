@@ -53,7 +53,16 @@ export_on_save:
 - ステータス: 共有済み。但し、ハーネスエンジニアリングというフレーズには一切触れていない。  
 - 共有日: 2026/04/27
 
-### その他雑メモ
+### 2026GW
+
+- [元ポスト](https://x.com/CDLE_news/status/2049375880724857032?s=20)
+- [元記事](https://ledge.ai/articles/gw_ai_learning_google_android_ai_tools_free_certification)
+- [関連ポスト](https://x.com/CDLE_news/status/2049642384406044803?s=20)
+- 検討日: 26/04/29
+- ステータス: 共有済み
+- 共有日: 2026/05/01
+
+## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
 
@@ -65,3 +74,7 @@ https://qiita.com/ot12/items/06420caf41a34a910c53
 
 クロコの資格
 https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/
+
+
+大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
+https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
