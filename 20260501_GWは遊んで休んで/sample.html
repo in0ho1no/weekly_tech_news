@@ -35,6 +35,14 @@ button:hover {
   margin-top: 15px;
   font-weight: bold;
 }
+.explanation {
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #333;
+  background: #eef6ff;
+  padding: 10px;
+  border-radius: 6px;
+}
 </style>
 </head>
 <body>
@@ -43,6 +51,7 @@ button:hover {
   <p id="question"></p>
   <div id="choices"></div>
   <p class="result" id="result"></p>
+  <div class="explanation" id="explanation"></div>
   <button onclick="nextQuestion()">次の問題</button>
 </div>
 
@@ -51,27 +60,32 @@ const quiz = [
   {
     question: "日本で一番高い山はどれ？",
     choices: ["北岳", "富士山", "奥穂高岳", "白馬岳"],
-    answer: "富士山"
+    answer: "富士山",
+    explanation: "富士山は標高3776mで、日本で最も高い山です。"
   },
   {
     question: "日本で一番面積が大きい都道府県は？",
     choices: ["北海道", "岩手県", "福島県", "長野県"],
-    answer: "北海道"
+    answer: "北海道",
+    explanation: "北海道は約8万平方キロメートルの面積を持ち、日本最大の都道府県です。"
   },
   {
     question: "沖縄県があるのはどの海？",
     choices: ["日本海", "東シナ海", "オホーツク海", "瀬戸内海"],
-    answer: "東シナ海"
+    answer: "東シナ海",
+    explanation: "沖縄県は日本の南西部に位置し、東シナ海に面しています。"
   },
   {
     question: "日本一長い川はどれ？",
     choices: ["利根川", "信濃川", "石狩川", "天竜川"],
-    answer: "信濃川"
+    answer: "信濃川",
+    explanation: "信濃川は全長約367kmで、日本で最も長い川です。"
   },
   {
     question: "本州の最北端にある県はどれ？",
     choices: ["青森県", "秋田県", "岩手県", "山形県"],
-    answer: "青森県"
+    answer: "青森県",
+    explanation: "青森県は本州の最北端に位置し、津軽海峡を挟んで北海道と向かい合っています。"
   }
 ];
 
@@ -92,19 +106,23 @@ function showQuestion() {
   });
 
   document.getElementById("result").textContent = "";
+  document.getElementById("explanation").textContent = "";
 }
 
 function checkAnswer(choice) {
-  const correct = quiz[current].answer;
+  const q = quiz[current];
   const result = document.getElementById("result");
+  const explanation = document.getElementById("explanation");
 
-  if (choice === correct) {
+  if (choice === q.answer) {
     result.textContent = "正解！";
     result.style.color = "green";
   } else {
-    result.textContent = "不正解… 正解は「" + correct + "」";
+    result.textContent = "不正解… 正解は「" + q.answer + "」";
     result.style.color = "red";
   }
+
+  explanation.textContent = q.explanation;
 }
 
 function nextQuestion() {
