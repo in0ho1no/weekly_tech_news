@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>日本の地理クイズ</title>
+<style>
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #2980b9;
+}
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>日本の地理クイズ</h2>
+  <p id="question"></p>
+  <div id="choices"></div>
+  <p class="result" id="result"></p>
+  <button onclick="nextQuestion()">次の問題</button>
+</div>
+
+<script>
+const quiz = [
+  {
+    question: "日本で一番高い山はどれ？",
+    choices: ["北岳", "富士山", "奥穂高岳", "白馬岳"],
+    answer: "富士山"
+  },
+  {
+    question: "日本で一番面積が大きい都道府県は？",
+    choices: ["北海道", "岩手県", "福島県", "長野県"],
+    answer: "北海道"
+  },
+  {
+    question: "沖縄県があるのはどの海？",
+    choices: ["日本海", "東シナ海", "オホーツク海", "瀬戸内海"],
+    answer: "東シナ海"
+  },
+  {
+    question: "日本一長い川はどれ？",
+    choices: ["利根川", "信濃川", "石狩川", "天竜川"],
+    answer: "信濃川"
+  },
+  {
+    question: "本州の最北端にある県はどれ？",
+    choices: ["青森県", "秋田県", "岩手県", "山形県"],
+    answer: "青森県"
+  }
+];
+
+let current = 0;
+
+function showQuestion() {
+  const q = quiz[current];
+  document.getElementById("question").textContent = q.question;
+
+  const choicesDiv = document.getElementById("choices");
+  choicesDiv.innerHTML = "";
+
+  q.choices.forEach(choice => {
+    const btn = document.createElement("button");
+    btn.textContent = choice;
+    btn.onclick = () => checkAnswer(choice);
+    choicesDiv.appendChild(btn);
+  });
+
+  document.getElementById("result").textContent = "";
+}
+
+function checkAnswer(choice) {
+  const correct = quiz[current].answer;
+  const result = document.getElementById("result");
+
+  if (choice === correct) {
+    result.textContent = "正解！";
+    result.style.color = "green";
+  } else {
+    result.textContent = "不正解… 正解は「" + correct + "」";
+    result.style.color = "red";
+  }
+}
+
+function nextQuestion() {
+  current = (current + 1) % quiz.length;
+  showQuestion();
+}
+
+// 初期表示
+showQuestion();
+</script>
+</body>
+</html>
