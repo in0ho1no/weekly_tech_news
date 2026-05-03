@@ -62,6 +62,13 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/05/01
 
+### 「AIが書いてAIが読む」時代に、人間が書く意味ってなんだろう
+
+- [元記事](https://note.com/yuichiro826/n/na3673744543d?sub_rt=share_pb)
+- 検討日: 26/05/03
+- ステータス: 共有済み
+- 共有日: 2026/05/04
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
@@ -75,6 +82,12 @@ https://qiita.com/ot12/items/06420caf41a34a910c53
 クロコの資格
 https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/
 
-
 大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
 https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
+
+GlassWorm
+https://codebook.machinarecord.com/threatreport/silobreaker-cyber-alert/44657/
+
+源内OSS化
+https://www.sbbit.jp/article/cont1/185139
+https://aifriends.jp/gennai-government-ai-open-source-2026/
