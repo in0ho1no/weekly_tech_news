@@ -85,9 +85,13 @@ https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passe
 大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
 https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
 
-GlassWorm
-https://codebook.machinarecord.com/threatreport/silobreaker-cyber-alert/44657/
-
 源内OSS化
 https://www.sbbit.jp/article/cont1/185139
 https://aifriends.jp/gennai-government-ai-open-source-2026/
+
+人間のコードレビューより先にAIコードレビュー
+https://x.com/tyakachan17/status/2051149166962004017?s=20
+
+あたかも公式かのように新規ツールのリリース  
+鵜呑みNG,宣伝する時にもそのソースをよく確認する必要がある
+https://x.com/MalwareBibleJP/status/2051561342235181330?s=20
