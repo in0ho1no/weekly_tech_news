@@ -92,6 +92,12 @@ https://aifriends.jp/gennai-government-ai-open-source-2026/
 人間のコードレビューより先にAIコードレビュー
 https://x.com/tyakachan17/status/2051149166962004017?s=20
 
+コードレビューの負荷増大
+https://ai.watch.impress.co.jp/docs/news/2105449.html
+
 あたかも公式かのように新規ツールのリリース  
 鵜呑みNG,宣伝する時にもそのソースをよく確認する必要がある
 https://x.com/MalwareBibleJP/status/2051561342235181330?s=20
+
+Vampireのようにエネルギーを吸い取るAI
+https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163
