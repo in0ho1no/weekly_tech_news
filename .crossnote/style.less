@@ -129,6 +129,7 @@
   }
 
   #note,
+  div.note,
   pre.note,
   pre[data-info='note'] {
     color: #38225d;
@@ -138,6 +139,7 @@
   }
 
   #tip,
+  div.tip,
   pre.tip,
   pre[data-info='tip'] {
     color: #094409;
@@ -147,6 +149,7 @@
   }
 
   #info,
+  div.info,
   pre.info,
   pre[data-info='info'] {
     color: #002b4d;
@@ -156,6 +159,7 @@
   }
 
   #warning,
+  div.warning,
   pre.warning,
   pre[data-info='warning'] {
     color: #651b01;
@@ -165,6 +169,7 @@
   }
 
   #caution,
+  div.caution,
   pre.caution,
   pre[data-info='caution'] {
     color: #664b00;
@@ -174,6 +179,7 @@
   }
 
   #sample,
+  div.sample,
   pre.sample,
   pre[data-info='sample'] {
     color: #82362D;
@@ -183,6 +189,7 @@
   }
 
   #result,
+  div.result,
   pre.result,
   pre[data-info='result'] {
     color: #E6DDDD;
@@ -191,24 +198,90 @@
     border-radius: 0.3em;
   }
 
+  #source,
+  div.source,
+  pre.source,
+  pre[data-info='source'] {
+    color: #2f3f4f;
+    background-color: #e9eef3;
+    padding: 0.3em;
+    border-radius: 0.3em;
+  }
+
   pre.note,
+  div.note,
   pre.tip,
+  div.tip,
   pre.info,
+  div.info,
   pre.warning,
+  div.warning,
   pre.caution,
+  div.caution,
   pre.sample,
+  div.sample,
   pre.result,
+  div.result,
+  pre.source,
+  div.source,
   pre[data-info='note'],
   pre[data-info='tip'],
   pre[data-info='info'],
   pre[data-info='warning'],
   pre[data-info='caution'],
   pre[data-info='sample'],
-  pre[data-info='result'] {
+  pre[data-info='result'],
+  pre[data-info='source'] {
     border: none;
     white-space: pre-wrap;
     font-family: inherit;
     line-height: 1.6;
+  }
+
+  div.note,
+  div.tip,
+  div.info,
+  div.warning,
+  div.caution,
+  div.sample,
+  div.result,
+  div.source {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
+  div.note > p,
+  div.tip > p,
+  div.info > p,
+  div.warning > p,
+  div.caution > p,
+  div.sample > p,
+  div.result > p,
+  div.source > p {
+    display: inline;
+    margin: 0;
+  }
+
+  div.note > :first-child,
+  div.tip > :first-child,
+  div.info > :first-child,
+  div.warning > :first-child,
+  div.caution > :first-child,
+  div.sample > :first-child,
+  div.result > :first-child,
+  div.source > :first-child {
+    margin-top: 0;
+  }
+
+  div.note > :last-child,
+  div.tip > :last-child,
+  div.info > :last-child,
+  div.warning > :last-child,
+  div.caution > :last-child,
+  div.sample > :last-child,
+  div.result > :last-child,
+  div.source > :last-child {
+    margin-bottom: 0;
   }
 
   pre.note code,
@@ -218,13 +291,15 @@
   pre.caution code,
   pre.sample code,
   pre.result code,
+  pre.source code,
   pre[data-info='note'] code,
   pre[data-info='tip'] code,
   pre[data-info='info'] code,
   pre[data-info='warning'] code,
   pre[data-info='caution'] code,
   pre[data-info='sample'] code,
-  pre[data-info='result'] code {
+  pre[data-info='result'] code,
+  pre[data-info='source'] code {
     color: inherit;
     background: transparent;
     font-family: inherit;
@@ -232,59 +307,75 @@
   }
 
   pre.note::before,
+  div.note::before,
   pre[data-info='note']::before {
     content: '📝 Note';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.tip::before,
+  div.tip::before,
   pre[data-info='tip']::before {
     content: '💡 Tip';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.info::before,
+  div.info::before,
   pre[data-info='info']::before {
     content: '🔍 Info';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.warning::before,
+  div.warning::before,
   pre[data-info='warning']::before {
     content: '🔥 Warning';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.caution::before,
+  div.caution::before,
   pre[data-info='caution']::before {
     content: '⚡ Caution';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.sample::before,
+  div.sample::before,
   pre[data-info='sample']::before {
     content: '💻 Sample';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.result::before,
+  div.result::before,
   pre[data-info='result']::before {
     content: '🔴 Result';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
+  }
+
+  pre.source::before,
+  div.source::before,
+  pre[data-info='source']::before {
+    content: '📚 Source';
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0.2em;
   }
 
   .image_w300 {
