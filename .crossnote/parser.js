@@ -79,6 +79,16 @@
       `,
     );
 
+    html_ = html_.replace(
+      /:::[sS][oO][uU][rR][cC][eE]([\w\W]+?):::/g,
+      (whole, content) => `
+        \<p id="source"\>
+        📚Source<br>
+        ${content}
+        \<\/p\>
+      `,
+    );
+
     return html_;
   },
 })
