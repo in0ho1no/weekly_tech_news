@@ -82,28 +82,28 @@ export_on_save:
 共有時に整理∪陳腐化したら消す
 
 クロコの安全な使い方
-https://dev.classmethod.jp/articles/claude-code-security-basics/
+<https://dev.classmethod.jp/articles/claude-code-security-basics/>
 
 4.7登場で余計なことはやめよう
-https://qiita.com/ot12/items/06420caf41a34a910c53
+<https://qiita.com/ot12/items/06420caf41a34a910c53>
 
 クロコの資格
-https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/
+<https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/>
 
 大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
-https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
+<https://zenn.dev/nttdata_tech/articles/bf6b694144e55a>
 
 人間のコードレビューより先にAIコードレビュー
-https://x.com/tyakachan17/status/2051149166962004017?s=20
+<https://x.com/tyakachan17/status/2051149166962004017?s=20>
 
 不要なレビューをAIにまかせてAIコーディングの環境改善を加速した
-https://tech.findy.co.jp/entry/2026/05/08/100000
+<https://tech.findy.co.jp/entry/2026/05/08/100000>
 
 コードレビューの負荷増大
-https://ai.watch.impress.co.jp/docs/news/2105449.html
+<https://ai.watch.impress.co.jp/docs/news/2105449.html>
 
 Vampireのようにエネルギーを吸い取るAI
-https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163
+<https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163>
 
 MCPを利用するなら。
-https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet
+<https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet>
