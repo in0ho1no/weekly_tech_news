@@ -87,6 +87,17 @@
         ],
         "description": "Insert a result block"
     },
+    "Source Block": {
+        "scope": "markdown",
+        "prefix": "mdsource",
+        "body": [
+            ":::source",
+            "出典: ${1:title}",
+            "${2:https://example.com}",
+            ":::"
+        ],
+        "description": "Insert a source block"
+    },
     "Markdown Table": {
         "scope": "markdown",
         "prefix": "mdtable",

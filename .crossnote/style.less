@@ -198,6 +198,16 @@
     border-radius: 0.3em;
   }
 
+  #source,
+  div.source,
+  pre.source,
+  pre[data-info='source'] {
+    color: #2f3f4f;
+    background-color: #e9eef3;
+    padding: 0.3em;
+    border-radius: 0.3em;
+  }
+
   pre.note,
   div.note,
   pre.tip,
@@ -212,13 +222,16 @@
   div.sample,
   pre.result,
   div.result,
+  pre.source,
+  div.source,
   pre[data-info='note'],
   pre[data-info='tip'],
   pre[data-info='info'],
   pre[data-info='warning'],
   pre[data-info='caution'],
   pre[data-info='sample'],
-  pre[data-info='result'] {
+  pre[data-info='result'],
+  pre[data-info='source'] {
     border: none;
     white-space: pre-wrap;
     font-family: inherit;
@@ -231,7 +244,8 @@
   div.warning,
   div.caution,
   div.sample,
-  div.result {
+  div.result,
+  div.source {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
   }
@@ -242,7 +256,8 @@
   div.warning > p,
   div.caution > p,
   div.sample > p,
-  div.result > p {
+  div.result > p,
+  div.source > p {
     display: inline;
     margin: 0;
   }
@@ -253,7 +268,8 @@
   div.warning > :first-child,
   div.caution > :first-child,
   div.sample > :first-child,
-  div.result > :first-child {
+  div.result > :first-child,
+  div.source > :first-child {
     margin-top: 0;
   }
 
@@ -263,7 +279,8 @@
   div.warning > :last-child,
   div.caution > :last-child,
   div.sample > :last-child,
-  div.result > :last-child {
+  div.result > :last-child,
+  div.source > :last-child {
     margin-bottom: 0;
   }
 
@@ -274,13 +291,15 @@
   pre.caution code,
   pre.sample code,
   pre.result code,
+  pre.source code,
   pre[data-info='note'] code,
   pre[data-info='tip'] code,
   pre[data-info='info'] code,
   pre[data-info='warning'] code,
   pre[data-info='caution'] code,
   pre[data-info='sample'] code,
-  pre[data-info='result'] code {
+  pre[data-info='result'] code,
+  pre[data-info='source'] code {
     color: inherit;
     background: transparent;
     font-family: inherit;
@@ -345,6 +364,15 @@
   div.result::before,
   pre[data-info='result']::before {
     content: '🔴 Result';
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+  }
+
+  pre.source::before,
+  div.source::before,
+  pre[data-info='source']::before {
+    content: '📚 Source';
     display: inline-block;
     font-weight: bold;
     margin-bottom: 0.2em;
