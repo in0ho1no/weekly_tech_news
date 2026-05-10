@@ -92,6 +92,9 @@ https://aifriends.jp/gennai-government-ai-open-source-2026/
 人間のコードレビューより先にAIコードレビュー
 https://x.com/tyakachan17/status/2051149166962004017?s=20
 
+不要なレビューをAIにまかせてAIコーディングの環境改善を加速した
+https://tech.findy.co.jp/entry/2026/05/08/100000
+
 コードレビューの負荷増大
 https://ai.watch.impress.co.jp/docs/news/2105449.html
 
@@ -101,3 +104,9 @@ https://x.com/MalwareBibleJP/status/2051561342235181330?s=20
 
 Vampireのようにエネルギーを吸い取るAI
 https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163
+
+国立国会図書館、「AI動向」に関する調査資料を無料公開中
+https://www.itmedia.co.jp/aiplus/articles/2605/08/news109.html
+
+MCPを利用するなら。
+https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet
