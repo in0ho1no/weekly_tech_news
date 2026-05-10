@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>日本の地理クイズ</title>
+<style>
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #2980b9;
+}
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.explanation {
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #333;
+  background: #eef6ff;
+  padding: 10px;
+  border-radius: 6px;
+}
+.rank {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>日本の地理クイズ</h2>
+  <p id="question"></p>
+  <div id="choices"></div>
+  <p class="result" id="result"></p>
+  <div class="explanation" id="explanation"></div>
+  <div class="rank" id="rank"></div>
+  <button onclick="nextQuestion()">次の問題</button>
+</div>
+
+<script>
+const quiz = [
+  {
+    question: "日本で一番高い山はどれ？",
+    choices: ["北岳", "富士山", "奥穂高岳", "白馬岳"],
+    answer: "富士山",
+    explanation: "富士山は標高3776mで、日本で最も高い山です。",
+    url: "https://ja.wikipedia.org/wiki/富士山"
+  },
+  {
+    question: "日本で一番面積が大きい都道府県は？",
+    choices: ["北海道", "岩手県", "福島県", "長野県"],
+    answer: "北海道",
+    explanation: "北海道は約8万平方キロメートルの面積を持ち、日本最大の都道府県です。",
+    url: "https://ja.wikipedia.org/wiki/北海道"
+  },
+  {
+    question: "沖縄県があるのはどの海？",
+    choices: ["日本海", "東シナ海", "オホーツク海", "瀬戸内海"],
+    answer: "東シナ海",
+    explanation: "沖縄県は日本の南西部に位置し、東シナ海に面しています。",
+    url: "https://ja.wikipedia.org/wiki/沖縄県"
+  },
+  {
+    question: "日本一長い川はどれ？",
+    choices: ["利根川", "信濃川", "石狩川", "天竜川"],
+    answer: "信濃川",
+    explanation: "信濃川は全長約367kmで、日本で最も長い川です。",
+    url: "https://ja.wikipedia.org/wiki/信濃川"
+  },
+  {
+    question: "本州の最北端にある県はどれ？",
+    choices: ["青森県", "秋田県", "岩手県", "山形県"],
+    answer: "青森県",
+    explanation: "青森県は本州の最北端に位置し、津軽海峡を挟んで北海道と向かい合っています。",
+    url: "https://ja.wikipedia.org/wiki/青森県"
+  }
+];
+
+let current = 0;
+let score = 0;
+
+function showQuestion() {
+  const q = quiz[current];
+  document.getElementById("question").textContent = q.question;
+
+  const choicesDiv = document.getElementById("choices");
+  choicesDiv.innerHTML = "";
+
+  q.choices.forEach(choice => {
+    const btn = document.createElement("button");
+    btn.textContent = choice;
+    btn.onclick = () => checkAnswer(choice);
+    choicesDiv.appendChild(btn);
+  });
+
+  document.getElementById("result").textContent = "";
+  document.getElementById("explanation").textContent = "";
+}
+
+function checkAnswer(choice) {
+  const q = quiz[current];
+  const result = document.getElementById("result");
+  const explanationDiv = document.getElementById("explanation");
+
+  if (choice === q.answer) {
+    result.textContent = "正解！";
+    result.style.color = "green";
+    score++;
+  } else {
+    result.textContent = "不正解… 正解は「" + q.answer + "」";
+    result.style.color = "red";
+  }
+
+  explanationDiv.innerHTML = q.explanation + '<br><a href="' + q.url + '" target="_blank">参考URLを見る</a>';
+}
+
+function nextQuestion() {
+  current++;
+
+  if (current >= quiz.length) {
+    showResult();
+    return;
+  }
+
+  showQuestion();
+}
+
+function showResult() {
+  document.getElementById("question").textContent = "クイズ終了！";
+  document.getElementById("choices").innerHTML = "";
+  document.getElementById("result").textContent = "あなたの正解数: " + score + " / " + quiz.length;
+  document.getElementById("explanation").textContent = "";
+
+  const rankDiv = document.getElementById("rank");
+
+  if (score === quiz.length) {
+    rankDiv.textContent = "博士級！";
+  } else if (score >= 3) {
+    rankDiv.textContent = "なかなか詳しい！";
+  } else {
+    rankDiv.textContent = "もう一回チャレンジ！";
+  }
+}
+
+// 初期表示
+showQuestion();
+</script>
+</body>
+</html>
