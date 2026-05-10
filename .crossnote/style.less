@@ -225,6 +225,28 @@
     line-height: 1.6;
   }
 
+  div.note,
+  div.tip,
+  div.info,
+  div.warning,
+  div.caution,
+  div.sample,
+  div.result {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
+  div.note > p,
+  div.tip > p,
+  div.info > p,
+  div.warning > p,
+  div.caution > p,
+  div.sample > p,
+  div.result > p {
+    display: inline;
+    margin: 0;
+  }
+
   div.note > :first-child,
   div.tip > :first-child,
   div.info > :first-child,
@@ -269,63 +291,63 @@
   div.note::before,
   pre[data-info='note']::before {
     content: '📝 Note';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.tip::before,
   div.tip::before,
   pre[data-info='tip']::before {
     content: '💡 Tip';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.info::before,
   div.info::before,
   pre[data-info='info']::before {
     content: '🔍 Info';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.warning::before,
   div.warning::before,
   pre[data-info='warning']::before {
     content: '🔥 Warning';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.caution::before,
   div.caution::before,
   pre[data-info='caution']::before {
     content: '⚡ Caution';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.sample::before,
   div.sample::before,
   pre[data-info='sample']::before {
     content: '💻 Sample';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   pre.result::before,
   div.result::before,
   pre[data-info='result']::before {
     content: '🔴 Result';
-    display: block;
+    display: inline-block;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
   }
 
   .image_w300 {
