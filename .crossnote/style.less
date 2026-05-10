@@ -129,6 +129,7 @@
   }
 
   #note,
+  div.note,
   pre.note,
   pre[data-info='note'] {
     color: #38225d;
@@ -138,6 +139,7 @@
   }
 
   #tip,
+  div.tip,
   pre.tip,
   pre[data-info='tip'] {
     color: #094409;
@@ -147,6 +149,7 @@
   }
 
   #info,
+  div.info,
   pre.info,
   pre[data-info='info'] {
     color: #002b4d;
@@ -156,6 +159,7 @@
   }
 
   #warning,
+  div.warning,
   pre.warning,
   pre[data-info='warning'] {
     color: #651b01;
@@ -165,6 +169,7 @@
   }
 
   #caution,
+  div.caution,
   pre.caution,
   pre[data-info='caution'] {
     color: #664b00;
@@ -174,6 +179,7 @@
   }
 
   #sample,
+  div.sample,
   pre.sample,
   pre[data-info='sample'] {
     color: #82362D;
@@ -183,6 +189,7 @@
   }
 
   #result,
+  div.result,
   pre.result,
   pre[data-info='result'] {
     color: #E6DDDD;
@@ -192,12 +199,19 @@
   }
 
   pre.note,
+  div.note,
   pre.tip,
+  div.tip,
   pre.info,
+  div.info,
   pre.warning,
+  div.warning,
   pre.caution,
+  div.caution,
   pre.sample,
+  div.sample,
   pre.result,
+  div.result,
   pre[data-info='note'],
   pre[data-info='tip'],
   pre[data-info='info'],
@@ -209,6 +223,26 @@
     white-space: pre-wrap;
     font-family: inherit;
     line-height: 1.6;
+  }
+
+  div.note > :first-child,
+  div.tip > :first-child,
+  div.info > :first-child,
+  div.warning > :first-child,
+  div.caution > :first-child,
+  div.sample > :first-child,
+  div.result > :first-child {
+    margin-top: 0;
+  }
+
+  div.note > :last-child,
+  div.tip > :last-child,
+  div.info > :last-child,
+  div.warning > :last-child,
+  div.caution > :last-child,
+  div.sample > :last-child,
+  div.result > :last-child {
+    margin-bottom: 0;
   }
 
   pre.note code,
@@ -232,6 +266,7 @@
   }
 
   pre.note::before,
+  div.note::before,
   pre[data-info='note']::before {
     content: '📝 Note';
     display: block;
@@ -240,6 +275,7 @@
   }
 
   pre.tip::before,
+  div.tip::before,
   pre[data-info='tip']::before {
     content: '💡 Tip';
     display: block;
@@ -248,6 +284,7 @@
   }
 
   pre.info::before,
+  div.info::before,
   pre[data-info='info']::before {
     content: '🔍 Info';
     display: block;
@@ -256,6 +293,7 @@
   }
 
   pre.warning::before,
+  div.warning::before,
   pre[data-info='warning']::before {
     content: '🔥 Warning';
     display: block;
@@ -264,6 +302,7 @@
   }
 
   pre.caution::before,
+  div.caution::before,
   pre[data-info='caution']::before {
     content: '⚡ Caution';
     display: block;
@@ -272,6 +311,7 @@
   }
 
   pre.sample::before,
+  div.sample::before,
   pre[data-info='sample']::before {
     content: '💻 Sample';
     display: block;
@@ -280,6 +320,7 @@
   }
 
   pre.result::before,
+  div.result::before,
   pre[data-info='result']::before {
     content: '🔴 Result';
     display: block;
