@@ -102,8 +102,14 @@ export_on_save:
 コードレビューの負荷増大
 <https://ai.watch.impress.co.jp/docs/news/2105449.html>
 
+MetaのAI推進、従業員の士気を崩している実態
+<https://joho-todai.com/meta-ai-push-hurting-employee-morale/>
+
 Vampireのようにエネルギーを吸い取るAI
 <https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163>
 
 MCPを利用するなら。
 <https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet>
+
+スタックチャン開発とソフトウェアライセンスの落とし穴
+<https://karaage-empire-radio.pages.dev/episodes/90>
