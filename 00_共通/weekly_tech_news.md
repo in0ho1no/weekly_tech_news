@@ -77,33 +77,55 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/05/11
 
+### AIが「何年も気づかれなかったバグ」を見つけている
+
+- [元記事](https://news.yahoo.co.jp/articles/216cdfaf8443e491f2341090370e2fdb90d14ac0)
+- 検討日: 26/05/14
+- ステータス: 共有済み
+- 共有日: 2026/05/18
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
 
 クロコの安全な使い方
-https://dev.classmethod.jp/articles/claude-code-security-basics/
+<https://dev.classmethod.jp/articles/claude-code-security-basics/>
 
 4.7登場で余計なことはやめよう
-https://qiita.com/ot12/items/06420caf41a34a910c53
+<https://qiita.com/ot12/items/06420caf41a34a910c53>
 
 クロコの資格
-https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/
+<https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/>
 
 大規模案件のSlackにAI社員3人を常駐させたら、2年目が参画1週間で設計根本に踏み込んだ
-https://zenn.dev/nttdata_tech/articles/bf6b694144e55a
+<https://zenn.dev/nttdata_tech/articles/bf6b694144e55a>
 
 人間のコードレビューより先にAIコードレビュー
-https://x.com/tyakachan17/status/2051149166962004017?s=20
+<https://x.com/tyakachan17/status/2051149166962004017?s=20>
 
 不要なレビューをAIにまかせてAIコーディングの環境改善を加速した
-https://tech.findy.co.jp/entry/2026/05/08/100000
+<https://tech.findy.co.jp/entry/2026/05/08/100000>
 
 コードレビューの負荷増大
-https://ai.watch.impress.co.jp/docs/news/2105449.html
+<https://ai.watch.impress.co.jp/docs/news/2105449.html>
+
+MetaのAI推進、従業員の士気を崩している実態
+<https://joho-todai.com/meta-ai-push-hurting-employee-morale/>
 
 Vampireのようにエネルギーを吸い取るAI
-https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163
+<https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163>
+
+AI妄信のリスク
+<https://x.com/iwashi86/status/2055599591626789303?s=20>
 
 MCPを利用するなら。
-https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet
+<https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet>
+
+スタックチャン開発とソフトウェアライセンスの落とし穴
+<https://karaage-empire-radio.pages.dev/episodes/90>
+
+基礎知識は大事
+<https://x.com/kmizu/status/2055476476271878520?s=20>
+
+オープンソースリポジトリーを圧迫する「10兆回」のダウンロード--その対策とは
+<https://japan.zdnet.com/article/35247209/>
