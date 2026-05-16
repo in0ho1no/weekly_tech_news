@@ -108,8 +108,17 @@ MetaのAI推進、従業員の士気を崩している実態
 Vampireのようにエネルギーを吸い取るAI
 <https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163>
 
+AI妄信のリスク
+<https://x.com/iwashi86/status/2055599591626789303?s=20>
+
 MCPを利用するなら。
 <https://hackernoon.com/mcp-servers-are-a-supply-chain-you-have-not-inventoried-yet>
 
 スタックチャン開発とソフトウェアライセンスの落とし穴
 <https://karaage-empire-radio.pages.dev/episodes/90>
+
+基礎知識は大事
+<https://x.com/kmizu/status/2055476476271878520?s=20>
+
+オープンソースリポジトリーを圧迫する「10兆回」のダウンロード--その対策とは
+<https://japan.zdnet.com/article/35247209/>
