@@ -1,20 +1,24 @@
-# Project Guidelines
+# プロジェクト指針
 
-## Workspace Focus
-- This workspace is a Japanese-first weekly tech news writing project with article folders that bundle Markdown, exported HTML, images, and related working files.
-- Prefer minimal, task-focused changes inside the target article folder instead of repo-wide refactors.
-- Treat generated outputs as disposable unless the task explicitly asks to update them. HTML and PDF exports are gitignored in [.gitignore](.gitignore).
+## ワークスペースの前提
 
-## Article Workflow
-- Shared article conventions live in [00_共通/template.md](00_共通/template.md) and topic tracking lives in [00_共通/weekly_tech_news.md](00_共通/weekly_tech_news.md). Link to those files instead of duplicating their content.
-- Preserve the frontmatter used by Markdown Preview Enhanced: offline HTML export, TOC, and embedded local images.
-- Keep article prose, headings, notes, and callout text in Japanese unless the file already uses a different style.
-- When adding images to Markdown, use the workspace copy rule that places assets under each article's img directory.
+- このワークスペースは日本語中心の週刊技術ニュース執筆プロジェクトです。  
+各記事フォルダにはMarkdown、書き出し済み HTML、画像、および関連する作業ファイルがまとまっています。  
+- リポジトリ全体を横断する大きな変更よりも、対象の記事フォルダ内での最小限かつ目的に沿った変更を優先してください。  
+- 生成物は、明示的に更新を求められた場合を除き使い捨てとして扱ってください。HTML と PDF の書き出し物は [../.gitignore](../.gitignore) で無視されています。  
 
-## Conventions
-- Match the repository's VS Code workflow in [weekly_tech_news.code-workspace](weekly_tech_news.code-workspace): Markdown word wrap enabled, Ruff as the Python formatter, and Markdown Preview Enhanced as the expected preview/export tool.
+## 記事作成フロー
 
-## Known Gaps
-- [.vscode/launch.json](.vscode/launch.json) points to a non-existent src/main.py template path. Do not rely on it without fixing it first.
-- There is no test suite configured. If validation is needed, run the relevant script directly and report what you executed.
-- Search results can be noisy because generated HTML exports are present in article folders. Prefer Markdown and config files when gathering context.
+- 記事共通のルールは [../00_共通/template.md](../00_共通/template.md)、トピック管理は [../00_共通/weekly_tech_news.md](../00_共通/weekly_tech_news.md) にあります。内容を重複して書くのではなく、必要に応じてこれらのファイルを参照してください。  
+- Markdown Preview Enhanced で利用している frontmatter は維持してください。これにはオフライン HTML 出力、TOC、ローカル画像の埋め込み設定が含まれます。  
+- 既に別の文体が使われている場合を除き、記事本文、見出し、注記、コールアウト文は日本語で記述してください。  
+- Markdown に画像を追加する場合は、各記事フォルダ内の img ディレクトリに配置するワークスペースの運用ルールに従ってください。  
+
+## 運用上の前提
+
+- [../weekly_tech_news.code-workspace](../weekly_tech_news.code-workspace) にある VS Code ワークフローに合わせてください。Markdown の折り返し、Python フォーマッタとしての Ruff、プレビューおよび書き出しツールとしての Markdown Preview Enhanced を前提とします。
+
+## 既知の注意点
+- [../.vscode/launch.json](../.vscode/launch.json) は存在しない src/main.py テンプレートパスを参照しています。修正するまでは前提にしないでください。
+- テストスイートは設定されていません。検証が必要な場合は、関連するスクリプトを直接実行し、何を実行したかを報告してください。
+- 記事フォルダ内には生成済み HTML が含まれているため、検索結果にノイズが混じりやすくなります。コンテキストを集める際は Markdown と設定ファイルを優先してください。
