@@ -15,6 +15,11 @@ export_on_save:
 GitHub Copilotの課金体系について、2026年6月1日から原則としてリクエストベースから利用量ベースへ移行するという案内が出ています。  
 利用量ベースでは、どのモデルを使うか、どれだけトークンを使うかによって扱いが変わります。  
 
+具体的には、モデルへ送られる入力、モデルが生成する出力、再利用・保存されるキャッシュのトークン数をもとに計算されます。  
+質問の回数だけでなく、やり取りする情報量も関係するということです。  
+
+![alt text](img/料金体系の変更.png)
+
 ただし、この記事では細かい金額の話には踏み込みません。  
 金額はプランや時期によって変わり得ますし、誤解があるとトラブルになりやすいからです。  
 
@@ -94,6 +99,8 @@ GitHubの説明では、Auto（VS CodeのCopilot Chat）はモデルの稼働状
 GitHub Docs「About Copilot auto model selection」
 <https://docs.github.com/en/copilot/concepts/models/auto-model-selection>
 :::
+
+![alt text](img/使い分けの目安.png)
 
 ## モデル選択は「質問の仕分け」
 
