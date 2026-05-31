@@ -91,15 +91,26 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/05/25
 
+### AIは物知りだけど、万能じゃない
+
+- [元記事](https://prtimes.jp/main/html/rd/p/000000028.000019182.html)
+- 検討日: 26/05/29
+- ステータス: 共有済み
+- 共有日: 2026/06/01
+
+### GitHubCopilotのモデル選択は強ければいいわけではない
+
+- [元記事](https://docs.github.com/ja/copilot/reference/copilot-billing/models-and-pricing)
+- 検討日: 26/05/29
+- ステータス: チームのみ
+- 共有日: 2026/06/01
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
 
 クロコの安全な使い方
 <https://dev.classmethod.jp/articles/claude-code-security-basics/>
-
-4.7登場で余計なことはやめよう
-<https://qiita.com/ot12/items/06420caf41a34a910c53>
 
 クロコの資格
 <https://dev.classmethod.jp/articles/claude-certified-architect-foundations-passed/>
