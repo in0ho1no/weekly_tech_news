@@ -2,6 +2,7 @@
 /* Please visit the URL below for more information: */
 /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
 
+/* Crossnote プレビュー全体の見た目と独自ブロックの装飾を定義する。 */
 .markdown-preview.markdown-preview {
   background-color: #f0f0f0;
 
@@ -117,7 +118,7 @@
     text-decoration: underline;
   }
 
-  /* 画像を中央に配置する */
+  /* 画像の配置を記法で切り替える。 */
   img[src*='#center'] { 
       display: block;
       margin: auto;
@@ -128,6 +129,13 @@
       float: right;
   }
 
+  /* 固定幅で差し込みたい画像用のユーティリティ。 */
+  .image_w300 {
+    width: 300px;
+    height: auto;
+  }
+
+  /* parser.js で生成する各種 callout の配色をそろえる。 */
   #note,
   div.note,
   pre.note,
@@ -154,6 +162,16 @@
   pre[data-info='info'] {
     color: #002b4d;
     background-color: #e0f2ff;
+    padding: 0.3em;
+    border-radius: 0.3em;
+  }
+
+  #source,
+  div.source,
+  pre.source,
+  pre[data-info='source'] {
+    color: #2f3f4f;
+    background-color: #e9eef3;
     padding: 0.3em;
     border-radius: 0.3em;
   }
@@ -198,22 +216,14 @@
     border-radius: 0.3em;
   }
 
-  #source,
-  div.source,
-  pre.source,
-  pre[data-info='source'] {
-    color: #2f3f4f;
-    background-color: #e9eef3;
-    padding: 0.3em;
-    border-radius: 0.3em;
-  }
-
   pre.note,
   div.note,
   pre.tip,
   div.tip,
   pre.info,
   div.info,
+  pre.source,
+  div.source,
   pre.warning,
   div.warning,
   pre.caution,
@@ -222,16 +232,14 @@
   div.sample,
   pre.result,
   div.result,
-  pre.source,
-  div.source,
   pre[data-info='note'],
   pre[data-info='tip'],
   pre[data-info='info'],
+  pre[data-info='source'],
   pre[data-info='warning'],
   pre[data-info='caution'],
   pre[data-info='sample'],
-  pre[data-info='result'],
-  pre[data-info='source'] {
+  pre[data-info='result'] {
     border: none;
     white-space: pre-wrap;
     font-family: inherit;
@@ -241,23 +249,25 @@
   div.note,
   div.tip,
   div.info,
+  div.source,
   div.warning,
   div.caution,
   div.sample,
-  div.result,
-  div.source {
+  div.result {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
   }
 
   div.note > p,
   div.tip > p,
   div.info > p,
+  div.source > p,
   div.warning > p,
   div.caution > p,
   div.sample > p,
-  div.result > p,
-  div.source > p {
+  div.result > p {
     display: inline;
     margin: 0;
   }
@@ -265,47 +275,48 @@
   div.note > :first-child,
   div.tip > :first-child,
   div.info > :first-child,
+  div.source > :first-child,
   div.warning > :first-child,
   div.caution > :first-child,
   div.sample > :first-child,
-  div.result > :first-child,
-  div.source > :first-child {
+  div.result > :first-child {
     margin-top: 0;
   }
 
   div.note > :last-child,
   div.tip > :last-child,
   div.info > :last-child,
+  div.source > :last-child,
   div.warning > :last-child,
   div.caution > :last-child,
   div.sample > :last-child,
-  div.result > :last-child,
-  div.source > :last-child {
+  div.result > :last-child {
     margin-bottom: 0;
   }
 
   pre.note code,
   pre.tip code,
   pre.info code,
+  pre.source code,
   pre.warning code,
   pre.caution code,
   pre.sample code,
   pre.result code,
-  pre.source code,
   pre[data-info='note'] code,
   pre[data-info='tip'] code,
   pre[data-info='info'] code,
+  pre[data-info='source'] code,
   pre[data-info='warning'] code,
   pre[data-info='caution'] code,
   pre[data-info='sample'] code,
-  pre[data-info='result'] code,
-  pre[data-info='source'] code {
+  pre[data-info='result'] code {
     color: inherit;
     background: transparent;
     font-family: inherit;
     white-space: inherit;
   }
 
+  /* 各 callout の先頭にラベルを自動付与する。 */
   pre.note::before,
   div.note::before,
   pre[data-info='note']::before {
@@ -328,6 +339,15 @@
   div.info::before,
   pre[data-info='info']::before {
     content: '🔍 Info';
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+  }
+
+  pre.source::before,
+  div.source::before,
+  pre[data-info='source']::before {
+    content: '📚 Source';
     display: inline-block;
     font-weight: bold;
     margin-bottom: 0.2em;
@@ -367,19 +387,5 @@
     display: inline-block;
     font-weight: bold;
     margin-bottom: 0.2em;
-  }
-
-  pre.source::before,
-  div.source::before,
-  pre[data-info='source']::before {
-    content: '📚 Source';
-    display: inline-block;
-    font-weight: bold;
-    margin-bottom: 0.2em;
-  }
-
-  .image_w300 {
-    width: 300px;
-    height: auto;
   }
 }

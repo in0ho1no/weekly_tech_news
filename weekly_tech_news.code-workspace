@@ -63,6 +63,12 @@
 		"[markdown]": {
 			"editor.wordWrap":"on",
 			"editor.snippetSuggestions": "top",
+			// 共通化するとmarkdownでサジェスト効かなくなるので明示必須
+			"editor.quickSuggestions": {
+				"other": true,
+				"comments": false,
+				"strings": false
+			},
 			"editor.scrollBeyondLastLine": false,
 			"files.trimTrailingWhitespace": false,
 			"files.insertFinalNewline": true,
