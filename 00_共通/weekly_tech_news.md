@@ -105,6 +105,23 @@ export_on_save:
 - ステータス: チームのみ
 - 共有日: 2026/06/01
 
+### AIは走り続けている
+
+- 元記事:
+  - <https://www.anthropic.com/institute/recursive-self-improvement>
+  - <https://gigazine.net/news/20230330-pause-ai-training/>
+  - <https://www.businessinsider.com/uber-coo-andrew-macdonald-ai-token-spending-harder-justify-2026-5>
+- 検討日: 26/06/07
+- ステータス: 共有済み
+- 共有日: 2026/06/08
+
+### AIへの頼み方、3つのパターン
+
+- 元記事: 特になし
+- 検討日: 26/06/07
+- ステータス: 共有済み
+- 共有日: 2026/06/08
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
