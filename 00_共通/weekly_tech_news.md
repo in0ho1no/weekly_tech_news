@@ -122,6 +122,14 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/06/08
 
+### Fable 5が来て、3日で止まった
+
+- 元記事:
+  - <https://www.anthropic.com/news/fable-mythos-access>
+- 検討日: 26/06/13
+- ステータス: 共有済み
+- 共有日: 2026/06/15
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
@@ -164,7 +172,3 @@ MCPを利用するなら。
 
 オープンソースリポジトリーを圧迫する「10兆回」のダウンロード--その対策とは
 <https://japan.zdnet.com/article/35247209/>
-
-GitHubの内部情報が流出、Visual Studio Codeの拡張機能経由で約3800のリポジトリに不正アクセスされる  
-ブラウザ拡張機能などと同質。SKILL,MCPなども要注意
-<https://gigazine.net/news/20260521-github-unauthorized-access/>
