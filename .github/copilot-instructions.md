@@ -19,6 +19,6 @@
 - [../weekly_tech_news.code-workspace](../weekly_tech_news.code-workspace) にある VS Code ワークフローに合わせてください。Markdown の折り返し、Python フォーマッタとしての Ruff、プレビューおよび書き出しツールとしての Markdown Preview Enhanced を前提とします。
 
 ## 既知の注意点
-- [../.vscode/launch.json](../.vscode/launch.json) は存在しない src/main.py テンプレートパスを参照しています。修正するまでは前提にしないでください。
+
 - テストスイートは設定されていません。検証が必要な場合は、関連するスクリプトを直接実行し、何を実行したかを報告してください。
 - 記事フォルダ内には生成済み HTML が含まれているため、検索結果にノイズが混じりやすくなります。コンテキストを集める際は Markdown と設定ファイルを優先してください。

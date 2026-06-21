@@ -130,6 +130,14 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/06/15
 
+### 書いていますか、Markdown
+
+- 元記事:
+  - <https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing>
+- 検討日: 26/06/19
+- ステータス: 共有済み
+- 共有日: 2026/06/22
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
@@ -167,8 +175,14 @@ MCPを利用するなら。
 スタックチャン開発とソフトウェアライセンスの落とし穴
 <https://karaage-empire-radio.pages.dev/episodes/90>
 
-基礎知識は大事
-<https://x.com/kmizu/status/2055476476271878520?s=20>
-
 オープンソースリポジトリーを圧迫する「10兆回」のダウンロード--その対策とは
 <https://japan.zdnet.com/article/35247209/>
+
+AIを使いこなせる事は必須条件、その上で必要なのは人間として判断する能力
+<https://www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/>
+
+認知的降伏に注意
+<https://www.gizmodo.jp/article/cognitive-surrender-is-a-new-and-useful-term-for-how-ai-melts-brains-pkz/>
+
+基礎知識は大事
+<https://x.com/kmizu/status/2055476476271878520?s=20>
