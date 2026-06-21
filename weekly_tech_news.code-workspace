@@ -78,7 +78,7 @@
 		// Markdown Preview Enhanced
 		"markdown-preview-enhanced.breakOnSingleNewLine": false,
 		"markdown-preview-enhanced.scrollSync": false,
-		"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+		// "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
 
 		"[python]": {
 			"editor.defaultFormatter": "charliermarsh.ruff",
