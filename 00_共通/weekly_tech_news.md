@@ -160,8 +160,8 @@ export_on_save:
 コードレビューの負荷増大
 <https://ai.watch.impress.co.jp/docs/news/2105449.html>
 
-MetaのAI推進、従業員の士気を崩している実態
-<https://joho-todai.com/meta-ai-push-hurting-employee-morale/>
+持続可能なモブプロをガチで模索してみた
+<https://zenn.dev/lincwell_inc/articles/0b626c490e61b8>
 
 Vampireのようにエネルギーを吸い取るAI
 <https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163>
@@ -186,3 +186,12 @@ AIを使いこなせる事は必須条件、その上で必要なのは人間と
 
 基礎知識は大事
 <https://x.com/kmizu/status/2055476476271878520?s=20>
+
+「Transformerの最大475倍」　富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発
+<https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/>
+
+性能の低いモデルも有効活用できる
+<https://x.com/guansi/status/2068920975547060689>
+
+ダイハツ、自動車部品のキズ検査をAIで自動化　“人の目と感性”を代替
+<https://www.itmedia.co.jp/aiplus/article/2606/22/2000000115/>
