@@ -146,6 +146,16 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/06/29
 
+### 声を文字にするASR
+
+- 元記事:
+  - <https://openai.com/index/whisper/>
+  - <https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/>
+  - <https://www.evenrealities.com/ja-JP/translation-glasses>
+- 検討日: 26/07/01
+- ステータス: 共有済み
+- 共有日: 2026/07/06
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
