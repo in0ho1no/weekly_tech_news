@@ -223,3 +223,6 @@ AIを使いこなせる事は必須条件、その上で必要なのは人間と
 
 ダイハツ、自動車部品のキズ検査をAIで自動化　“人の目と感性”を代替
 <https://www.itmedia.co.jp/aiplus/article/2606/22/2000000115/>
+
+noteの2Q決算、AI活用で人件費率低下・営業益20倍超
+<https://www.itmedia.co.jp/news/articles/2607/08/news082.html>
