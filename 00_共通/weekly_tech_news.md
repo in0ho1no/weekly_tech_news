@@ -156,6 +156,16 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/07/06
 
+### GPT-Liveで変わるAIとの音声対話
+
+- 元記事:
+  - <https://openai.com/index/introducing-gpt-live/>
+  - <https://forest.watch.impress.co.jp/docs/news/2123665.html>
+  - <https://deploymentsafety.openai.com/gpt-live>
+- 検討日: 26/07/08
+- ステータス: 共有済み
+- 共有日: 2026/07/13
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
