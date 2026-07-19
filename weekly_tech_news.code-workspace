@@ -17,7 +17,7 @@
 		},
 
 		// フォント設定
-		"editor.fontFamily": "Consolas, 'Meiryo UI','Courier New', monospace",
+		"editor.fontFamily": "Consolas, 'Cascadia Mono', 'SF Mono', Menlo, Monaco, 'Courier New', monospace",
 
 		// Copilot のコード提案は無効化しつつ、通常のサジェストは利用する
 		"github.copilot.enable": {
@@ -73,6 +73,9 @@
 			"files.trimTrailingWhitespace": false,
 			"files.insertFinalNewline": true,
 			"editor.padding.bottom": 250,
+			"editor.codeActionsOnSave": {
+				"source.fixAll.markdownlint": "explicit"
+			}
 		},
 
 		// Markdown Preview Enhanced
