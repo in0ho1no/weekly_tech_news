@@ -173,6 +173,25 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/07/20
 
+### その一言、まだ必要ですか
+
+- 元記事:
+  - <https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5>
+  - <https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6>
+  - <https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/>
+- 検討日: 26/07/25
+- ステータス: 共有済み
+- 共有日: 2026/07/27
+
+### 夏休みの宿題とAIの線引き
+
+- 元記事:
+  - <https://www.kyoiku.metro.tokyo.lg.jp/information/press/2026/04/2026042308>
+  - <https://edu.watch.impress.co.jp/docs/news/2127623.html>
+- 検討日: 26/07/26
+- ステータス: 検討中。8月上旬の掲載候補。
+- 共有日: 未共有
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
