@@ -183,14 +183,24 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/07/27
 
-### 夏休みの宿題とAIの線引き
+### 夏休みの宿題とAI
 
 - 元記事:
-  - <https://www.kyoiku.metro.tokyo.lg.jp/information/press/2026/04/2026042308>
   - <https://edu.watch.impress.co.jp/docs/news/2127623.html>
 - 検討日: 26/07/26
-- ステータス: 検討中。8月上旬の掲載候補。
-- 共有日: 未共有
+- ステータス: 共有済み
+- 共有日: 2026/08/03
+
+### 夏休み、暇があったら実践してみる？
+
+- 元記事:
+  - <https://support.claude.com/ja/articles/9517075>
+  - <https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context>
+  - <https://help.openai.com/ja-jp/articles/10169521-projects-in-chatgpt>
+  - <https://support.google.com/gemini/answer/15236321?hl=ja>
+- 検討日: 26/08/02
+- ステータス: 共有済み
+- 共有日: 2026/08/03
 
 ## その他雑メモ
 
