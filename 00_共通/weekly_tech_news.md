@@ -202,6 +202,15 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/08/03
 
+### 読み飛ばした告知が、あとから効いてくる
+
+- 元記事:
+  - <https://github.blog/changelog/2026-07-30-github-models-is-now-retired/>
+  - <https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/>
+- 検討日: 26/08/08
+- ステータス: 共有済み
+- 共有日: 2026/08/10
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
