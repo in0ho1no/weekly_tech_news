@@ -211,6 +211,15 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/08/10
 
+### Claudeのテキストへの電子透かし
+
+- 元記事:
+  - <https://www.anthropic.com/news/claude-text-watermark>
+  - <https://www.itmedia.co.jp/news/article/2608/16/2000000555/>
+- 検討日: 26/08/15
+- ステータス: 共有済み
+- 共有日: 2026/08/17
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
