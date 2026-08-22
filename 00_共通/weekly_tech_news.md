@@ -288,3 +288,6 @@ AIを使いこなせる事は必須条件、その上で必要なのは人間と
 
 noteの2Q決算、AI活用で人件費率低下・営業益20倍超
 <https://www.itmedia.co.jp/news/articles/2607/08/news082.html>
+
+AIで生産性が3倍になった私たちが、チームを置き去りにした話(Phase 4候補。ボトムアップ環境では置き去り感を煽るため見送り)
+<https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide>
