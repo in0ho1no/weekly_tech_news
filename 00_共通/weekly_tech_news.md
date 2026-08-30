@@ -228,6 +228,16 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/08/24
 
+### そこまで頼んだつもりはなかった
+
+- 元記事:
+  - <https://openai.com/ja-JP/index/hugging-face-incident-and-the-road-ahead/>
+  - <https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/>
+  - <https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986>
+- 検討日: 26/08/30
+- ステータス: 共有済み
+- 共有日: 2026/08/31
+
 ## その他雑メモ
 
 共有時に整理∪陳腐化したら消す
