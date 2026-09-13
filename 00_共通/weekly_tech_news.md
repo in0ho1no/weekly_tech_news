@@ -248,6 +248,15 @@ export_on_save:
 - 関連記事:
   - [STORIA法律事務所の解説](https://storialaw.jp/blog/13318)
 
+### AIはあなたに合わせる
+
+- 元記事:  
+  - <https://www.itmedia.co.jp/aiplus/article/2608/31/2000000964/>
+  - <https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures>
+- 検討日: 26/09/13
+- ステータス: 共有済み
+- 共有日: 2026/09/14
+
 ### 作る前に質問してもらう
 
 - 元記事:
