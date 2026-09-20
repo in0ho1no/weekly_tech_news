@@ -257,7 +257,7 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/09/14
 
-### そのAI、調べてから答えていますか
+### AIさん、裏取りしてる？
 
 - 元記事:
   - <https://www.fool.com/investing/2026/08/07/more-than-half-of-cloudflares-network-traffic-is-n/>
