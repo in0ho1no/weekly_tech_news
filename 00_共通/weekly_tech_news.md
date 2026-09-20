@@ -257,6 +257,16 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/09/14
 
+### そのAI、調べてから答えていますか
+
+- 元記事:
+  - <https://www.fool.com/investing/2026/08/07/more-than-half-of-cloudflares-network-traffic-is-n/>
+  - <https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/>
+  - <https://cdn.openai.com/gpt-5-system-card.pdf>
+- 検討日: 26/09/19
+- ステータス: 共有済み
+- 共有日: 2026/09/21
+
 ### 作る前に質問してもらう
 
 - 元記事:
