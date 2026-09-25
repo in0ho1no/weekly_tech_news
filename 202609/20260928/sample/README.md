@@ -19,27 +19,53 @@
    "test" | Set-Content test.txt
    git add test.txt
    git commit -m "Add test file"
+   git branch -M main
    ```
 
-3. 試す対象に応じて、設定ファイルをコピーします。Claude Code用とCopilot/VS Code用を同時に置かないでください。
+   `git init`直後のブランチ名は、環境によって`master`になっていることがあります。以降の手順では`main`を使うため、ここで明示的にリネームします。
+
+3. コピー先の親ディレクトリで、ローカル用のbareリポジトリを作成します。次の例では、確認用フォルダの隣に`hooks-test-remote.git`を作ります。
+
+   ```powershell
+   New-Item -ItemType Directory ..\hooks-test-remote.git -Force | Out-Null
+   git -C ..\hooks-test-remote.git init --bare --shared
+   git remote add origin ..\hooks-test-remote.git
+   ```
+
+   `--bare`は作業ツリーを持たないリモート用リポジトリを作成するオプションです。`--shared`は、ローカルの複数ユーザーで共有できる権限設定を行います。単独で試す場合は`git init --bare`でも構いません。
+
+4. リモートへの接続とブランチ名を確認します。
+
+   ```powershell
+   git remote -v
+   git branch --show-current
+   ```
+
+   `origin`が`..\hooks-test-remote.git`を指し、ブランチ名が`main`になっていれば準備完了です。フックを確認する前に、通常のpushが成功することも確認できます。
+
+   ```powershell
+   git push -u origin main
+   ```
+
+5. 試す対象に応じて、設定ファイルをコピーします。Claude Code用とCopilot/VS Code用を同時に置かないでください。
 
    - Claude Code: `claude\.claude\settings.json`を`.claude\settings.json`へコピー
    - VS Code Local: `local\.github\hooks\guard.json`を`.github\hooks\guard.json`へコピー
    - VS Code Copilot: `copilot\.github\hooks\guard.json`を`.github\hooks\guard.json`へコピー
 
-4. 対応する`guard.ps1`を、設定ファイルが参照する場所へコピーします。
+6. 対応する`guard.ps1`を、設定ファイルが参照する場所へコピーします。
 
    - Claude Code: `claude\.claude\hooks\guard.ps1`を`.claude\hooks\guard.ps1`へコピー
    - VS Code Local: `local\.github\hooks\guard.ps1`を`.github\hooks\guard.ps1`へコピー
    - VS Code Copilot: `copilot\.github\hooks\guard.ps1`を`.github\hooks\guard.ps1`へコピー
 
-5. エージェントに、次の操作を実行するよう依頼します。
+7. エージェントに、次の操作を実行するよう依頼します。
 
    ```text
    git push --force origin main を実行してください
    ```
 
-拒否理由が表示され、`git push`が実行されなければ成功です。リモートは設定していないため、フックが動かなかった場合もリモート接続エラーになります。
+拒否理由が表示され、`git push`が実行されなければ成功です。フックが動かなかった場合は、ローカルのbareリポジトリにforce pushされます。
 
 ## 直接テストする
 
