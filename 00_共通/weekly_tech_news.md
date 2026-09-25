@@ -267,6 +267,17 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/09/21
 
+### お願いではなく、仕組みで止める
+
+- 元記事:
+  - <https://code.claude.com/docs/en/hooks>
+  - <https://code.visualstudio.com/docs/agent-customization/hooks>
+  - <https://docs.github.com/en/copilot/reference/hooks-reference>
+  - <https://developers.openai.com/codex/hooks>
+- 検討日: 26/09/21
+- ステータス: 共有済み
+- 共有日: 2026/09/28
+
 ### 作る前に質問してもらう
 
 - 元記事:
