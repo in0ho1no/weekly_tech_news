@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "matcher": "Bash",
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/guard.ps1 -Copilot",
+        "timeoutSec": 15
+      }
+    ]
+  }
+}

@@ -257,7 +257,7 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/09/14
 
-### そのAI、調べてから答えていますか
+### AIさん、裏取りしてる？
 
 - 元記事:
   - <https://www.fool.com/investing/2026/08/07/more-than-half-of-cloudflares-network-traffic-is-n/>
@@ -266,6 +266,17 @@ export_on_save:
 - 検討日: 26/09/19
 - ステータス: 共有済み
 - 共有日: 2026/09/21
+
+### お願いではなく、仕組みで止める
+
+- 元記事:
+  - <https://code.claude.com/docs/en/hooks>
+  - <https://code.visualstudio.com/docs/agent-customization/hooks>
+  - <https://docs.github.com/en/copilot/reference/hooks-reference>
+  - <https://developers.openai.com/codex/hooks>
+- 検討日: 26/09/21
+- ステータス: 共有済み
+- 共有日: 2026/09/28
 
 ### 作る前に質問してもらう
 
