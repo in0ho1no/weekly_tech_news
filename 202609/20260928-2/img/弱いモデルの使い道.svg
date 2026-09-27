@@ -33,10 +33,10 @@
   <line x1="200" y1="265" x2="240" y2="265" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
   <rect x="245" y="230" width="160" height="70" rx="8" fill="#eef2ff" stroke="#6366f1"/>
   <text x="325" y="259" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">弱いモデル</text>
-  <text x="325" y="282" text-anchor="middle" font-size="13" fill="#334155">抜けを補えない</text>
+  <text x="325" y="282" text-anchor="middle" font-size="13" fill="#334155">抜けを補いにくい</text>
 
   <line x1="405" y1="265" x2="445" y2="265" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
   <rect x="450" y="230" width="290" height="70" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
-  <text x="595" y="259" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">抜けの箇所で止まる</text>
-  <text x="595" y="282" text-anchor="middle" font-size="13" fill="#92400e">足りない情報のありかが分かる</text>
+  <text x="595" y="259" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">抜けの箇所で止まりやすい</text>
+  <text x="595" y="282" text-anchor="middle" font-size="13" fill="#92400e">手順書を見直す手がかりになる</text>
 </svg>
