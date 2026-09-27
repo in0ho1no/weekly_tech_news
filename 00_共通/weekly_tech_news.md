@@ -284,8 +284,9 @@ export_on_save:
   - <https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news015.html>
   - <https://www.itmedia.co.jp/business/articles/2609/11/news043.html>
 - 検討日: 26/09/13
-- ステータス: 翌週以降へ繰り越し
-- 共有日: 未共有
+- ステータス: 没
+- 共有日: 没
+- 没理由: 9/21共有記事と内容が近い
 - メモ: NECのAI社員ストレスチェックで「仕様が曖昧なままタスクが渡される」が上位要因として挙がった件を導入に使い、Claude Designが選択肢付きで聞き返してくる挙動を解法側の実例として使う構成。  
 実践は「作る前に、必要なことを質問して」の一文追加。  
 26/08/31「そこまで頼んだつもりはなかった」と実践部分の性質が近いため、間隔を空けてから扱う。  
@@ -366,9 +367,6 @@ AIを使いこなせる事は必須条件、その上で必要なのは人間と
 
 「Transformerの最大475倍」　富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発
 <https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/>
-
-性能の低いモデルも有効活用できる
-<https://x.com/guansi/status/2068920975547060689>
 
 ダイハツ、自動車部品のキズ検査をAIで自動化　“人の目と感性”を代替
 <https://www.itmedia.co.jp/aiplus/article/2606/22/2000000115/>
