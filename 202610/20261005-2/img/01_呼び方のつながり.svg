@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="760" height="400" fill="#ffffff"/>
+
+  <!-- 上段：人 -->
+  <text x="20" y="30" font-size="16" font-weight="bold" fill="#1e293b">職場の人</text>
+  <text x="104" y="30" font-size="13" fill="#475569">経験から、同じものだと分かる</text>
+
+  <rect x="20" y="48" width="160" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="72" text-anchor="middle" font-size="14" fill="#1e293b">「定例」</text>
+  <rect x="20" y="96" width="160" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="120" text-anchor="middle" font-size="14" fill="#1e293b">「月曜の会議」</text>
+  <rect x="20" y="144" width="160" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="168" text-anchor="middle" font-size="14" fill="#1e293b">「進捗会」</text>
+
+  <line x1="180" y1="66" x2="396" y2="104" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="180" y1="114" x2="396" y2="114" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="180" y1="162" x2="396" y2="124" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="400" y="80" width="340" height="68" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="570" y="109" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">毎週月曜の進捗確認の会議</text>
+  <text x="570" y="132" text-anchor="middle" font-size="13" fill="#334155">3つとも同じものを指している</text>
+
+  <line x1="20" y1="204" x2="740" y2="204" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- 下段：AI -->
+  <text x="20" y="236" font-size="16" font-weight="bold" fill="#1e293b">AI</text>
+  <text x="48" y="236" font-size="13" fill="#475569">説明がなければ、一般的な意味で受け取ることがある</text>
+
+  <rect x="20" y="254" width="160" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="278" text-anchor="middle" font-size="14" fill="#1e293b">「定例」</text>
+  <rect x="20" y="302" width="160" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="326" text-anchor="middle" font-size="14" fill="#1e293b">「月曜の会議」</text>
+  <rect x="20" y="350" width="160" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="374" text-anchor="middle" font-size="14" fill="#1e293b">「進捗会」</text>
+
+  <line x1="180" y1="272" x2="396" y2="272" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="180" y1="320" x2="396" y2="320" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="180" y1="368" x2="396" y2="368" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="400" y="254" width="340" height="36" rx="6" fill="#fffbeb" stroke="#d97706" stroke-dasharray="5 4"/>
+  <text x="570" y="278" text-anchor="middle" font-size="14" fill="#b45309">定期的に開く会議全般</text>
+  <rect x="400" y="302" width="340" height="36" rx="6" fill="#fffbeb" stroke="#d97706" stroke-dasharray="5 4"/>
+  <text x="570" y="326" text-anchor="middle" font-size="14" fill="#b45309">月曜にある会議のどれか</text>
+  <rect x="400" y="350" width="340" height="36" rx="6" fill="#fffbeb" stroke="#d97706" stroke-dasharray="5 4"/>
+  <text x="570" y="374" text-anchor="middle" font-size="14" fill="#b45309">進捗を報告する会議全般</text>
+</svg>
