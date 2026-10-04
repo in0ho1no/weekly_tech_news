@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="760" height="420" fill="#ffffff"/>
+
+  <!-- 依頼 -->
+  <text x="20" y="30" font-size="13" fill="#475569">依頼</text>
+  <rect x="20" y="40" width="720" height="44" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="68" text-anchor="middle" font-size="15" fill="#1e293b">「来月の月イチの案内文を作って」</text>
+
+  <!-- ① 名前とdescription -->
+  <text x="20" y="120" font-size="15" font-weight="bold" fill="#1e293b">① 名前とdescriptionだけを見て、関係がありそうなSkillを選ぶ</text>
+
+
+  <rect x="20" y="134" width="228" height="96" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="34" y="160" font-size="14" font-weight="bold" fill="#1e293b">book-club-terms</text>
+  <text x="34" y="184" font-size="12" fill="#334155">読書サークルの内輪の</text>
+  <text x="34" y="202" font-size="12" fill="#334155">呼び方の対応表。連絡文を</text>
+  <text x="34" y="220" font-size="12" fill="#334155">作るときに使う</text>
+
+  <rect x="266" y="134" width="228" height="96" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="280" y="160" font-size="14" font-weight="bold" fill="#94a3b8">packing-list</text>
+  <text x="280" y="184" font-size="12" fill="#94a3b8">旅行の持ち物の確認表。</text>
+  <text x="280" y="202" font-size="12" fill="#94a3b8">旅行の準備をするときに</text>
+  <text x="280" y="220" font-size="12" fill="#94a3b8">使う</text>
+
+  <rect x="512" y="134" width="228" height="96" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="526" y="160" font-size="14" font-weight="bold" fill="#94a3b8">family-recipes</text>
+  <text x="526" y="184" font-size="12" fill="#94a3b8">家の定番料理の作り方。</text>
+  <text x="526" y="202" font-size="12" fill="#94a3b8">献立を考えるときに</text>
+  <text x="526" y="220" font-size="12" fill="#94a3b8">使う</text>
+
+  <line x1="134" y1="230" x2="134" y2="276" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ② 本文 -->
+  <text x="150" y="262" font-size="15" font-weight="bold" fill="#1e293b">② 選んだSkillの本文を読む</text>
+
+  <rect x="20" y="282" width="420" height="118" rx="8" fill="#f8fafc" stroke="#6366f1"/>
+  <text x="34" y="306" font-size="13" font-weight="bold" fill="#1e293b">本文</text>
+  <text x="34" y="330" font-size="12" fill="#334155">・「定例会」「月イチ」「本会」：毎月第2土曜の読書会</text>
+  <text x="34" y="352" font-size="12" fill="#334155">・「部長」「幹事」：会の取りまとめ役</text>
+  <text x="34" y="374" font-size="12" fill="#334155">・連絡文では「定例会」「幹事」「課題本」にそろえる</text>
+
+  <line x1="440" y1="341" x2="488" y2="341" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ③ 回答 -->
+  <rect x="492" y="282" width="248" height="118" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="616" y="310" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">③ 本文をもとに答える</text>
+  <text x="616" y="340" text-anchor="middle" font-size="12" fill="#334155">「月イチ」を読書会のことと</text>
+  <text x="616" y="360" text-anchor="middle" font-size="12" fill="#334155">受け取り、「定例会」の</text>
+  <text x="616" y="380" text-anchor="middle" font-size="12" fill="#334155">表記で案内文を作る</text>
+</svg>
