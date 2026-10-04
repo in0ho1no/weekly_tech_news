@@ -301,15 +301,18 @@ export_on_save:
 26/08/31「そこまで頼んだつもりはなかった」と実践部分の性質が近いため、間隔を空けてから扱う。  
 ＠IT記事は会員限定＋Claude有料プラン前提のため、本文は手法のみ借りてリンクは補助扱いにする。  
 
-### オープンウェイトって？
+### 答えるAIから、任されるAIへ
 
-- 元記事: なし
-- 検討日: 26/09/27
-- 共有日: 未共有
-- メモ: 核は「何が公開されているか」。重みのみ公開か、コードや学習データまで公開か。  
-ライセンス軸にすると5/11の源内記事や9/07の「それってライセンス大丈夫？」と重なるので避ける。  
-要確認: NVIDIA Nemotronの学習データ公開範囲、OSIのオープンソースAI定義。  
-7/06のASR記事で、Whisperを「オープンソースとして公開」と書いている点との整合に注意。  
+- 元記事:
+  - <https://openai.com/index/introducing-dots/>
+  - <https://help.openai.com/en/articles/20001530-getting-started-with-your-dot>
+  - <https://claude.com/blog/cowork-is-now-claude>
+  - <https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude>
+  - <https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/>
+  - <https://news.microsoft.com/source/asia/features/microsoft-build-2026-be-yourself-at-work/?lang=ja>
+- 検討日: 26/10/03
+- ステータス: 作成済み
+- 共有日: 2026/10/05（予定）
 
 ### ノールックで許可を押してしまう
 
