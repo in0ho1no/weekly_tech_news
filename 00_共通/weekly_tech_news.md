@@ -10,9 +10,9 @@ export_on_save:
 
 # weekly_tech_news
 
-本ファイルは投稿メモ用
+本ファイルは投稿ログ・ネタ帳
 
-## ネタのメモ
+## 投稿ログ
 
 ### Pythonが利用される理由について
 
@@ -311,8 +311,20 @@ export_on_save:
   - <https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/>
   - <https://news.microsoft.com/source/asia/features/microsoft-build-2026-be-yourself-at-work/?lang=ja>
 - 検討日: 26/10/03
-- ステータス: 作成済み
-- 共有日: 2026/10/05（予定）
+- ステータス: 共有済み
+- 共有日: 2026/10/05
+
+### その呼び方、AIは知っていますか
+
+- 元記事:
+  - <https://support.google.com/gemini/answer/18560919>
+  - <https://www.itmedia.co.jp/news/article/2609/29/2000001839/>
+  - <https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview>
+  - <https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills>
+  - <https://speakerdeck.com/headwaters/chirabata-gyoumu-chishiki-o-github-copilot-skill-de-ontology-de-seiri-suru?slide=15>
+- 検討日: 26/10/03
+- ステータス: 共有済み
+- 共有日: 2026/10/05
 
 ### ノールックで許可を押してしまう
 
