@@ -21,30 +21,12 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/04/12
 
-### recaptのフィッシングについて
-
-- [元ポスト](https://x.com/P4mui/status/2043056841668596052?s=20)
-- 検討日: 26/04/12
-- ステータス: 検討中
-- 共有日: 未共有
-
 ### トークンとコンテキストの関係について
 
 - 元ポスト: 特になし
 - 検討日: 26/04/12
 - ステータス: 共有済み
 - 共有日: 2026/04/20
-
-### NTTデータの顧客向け開発における挑戦
-
-- [元ポスト](https://x.com/Keisuke69/status/2045422087351972314)
-- 検討日: 26/04/18
-- ステータス: 検討中
-- 共有日: 未共有
-
-- 関連記事:
-  - [Zenn](https://zenn.dev/nttdata_tech/articles/8a010aff542625)
-  - [日経の記事](https://www.nikkei.com/article/DGXZQOUC254OB0V21C25A2000000/)
 
 ### 生成AI・チャットAI・AIエージェントの整理
 
@@ -326,6 +308,17 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/10/05
 
+### 見えない文字も、AIには届く
+
+- 元記事:
+  - <https://www.itmedia.co.jp/news/article/2610/09/2000002102/>
+  - <https://www.usenix.org/system/files/usenixsecurity26-zhang-mohan.pdf>
+  - <https://openai.com/index/hardening-atlas-against-prompt-injection/>
+  - <https://www.anthropic.com/research/prompt-injection-defenses>
+- 検討日: 26/10/09
+- ステータス: 共有済み
+- 共有日: 2026/10/12
+
 ### ノールックで許可を押してしまう
 
 - 元記事:
@@ -387,9 +380,6 @@ MCPを利用するなら。
 スタックチャン開発とソフトウェアライセンスの落とし穴
 <https://karaage-empire-radio.pages.dev/episodes/90>
 
-オープンソースリポジトリーを圧迫する「10兆回」のダウンロード--その対策とは
-<https://japan.zdnet.com/article/35247209/>
-
 AIを使いこなせる事は必須条件、その上で必要なのは人間として判断する能力
 <https://www.gizmodo.jp/article/what-the-world-needs-is-not-people-who-know-how-to-use-tools-but-people-who-know-why-those-tools-should-be-used/>
 
@@ -398,9 +388,6 @@ AIを使いこなせる事は必須条件、その上で必要なのは人間と
 
 基礎知識は大事
 <https://x.com/kmizu/status/2055476476271878520?s=20>
-
-「Transformerの最大475倍」　富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発
-<https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/>
 
 ダイハツ、自動車部品のキズ検査をAIで自動化　“人の目と感性”を代替
 <https://www.itmedia.co.jp/aiplus/article/2606/22/2000000115/>
