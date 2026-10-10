@@ -14,6 +14,10 @@ export_on_save:
 業務でのAI利用は各所属のルールに従ってください。
 :::
 
+:::caution
+GitHub Copilot Business・Enterpriseユーザ向けです。
+:::
+
 :::info
 本書ではGitHub Copilot Chatを扱い、Copilot CLIは適用対象外となります。
 :::
@@ -130,3 +134,61 @@ VS Code Docs「Use Agent Skills in VS Code」
 本書では扱いませんが、カスタムエージェントではモデルを指定できます。
 どうしても特定のモデルにSkillを利用させたい場合、カスタムエージェント経由でSkillを使わせることになります。
 :::
+
+## 書いたあとに点検する
+
+### 指示の矛盾や曖昧さを洗い出す
+
+Skillの本文は、書いた本人には意味が通じてしまうため、矛盾や曖昧さに自分では気づきにくいものです。  
+VS Codeの拡張機能「Chat Customizations Evaluations」を使うと、`SKILL.md`の内容をCopilotで分析し、次のような点を指摘させることができます。  
+
+- 指示同士の矛盾（「必ず表にする」と「箇条書きで返す」が両方ある、など）
+- 意味が曖昧な書き方（書き換え案も示される）
+- 条件分岐が多すぎて複雑になっている箇所
+- 想定していない依頼やエラーへの対応が抜けている箇所
+
+使い方は、`SKILL.md`を開いた状態でコマンドパレットから「Chat Customizations Evaluations: Analyze Prompt」を実行するか、エディタ右上のビーカーのアイコンを押すだけです。  
+結果は「問題」パネルに、該当する行と一緒に表示されます。  
+拡張機能にはほかの機能もありますが、本記事ではこの分析機能だけを扱います。  
+
+指摘はAIによる分析なので、毎回同じ結果になるとは限らず、すべてが的確とも限りません。  
+直すかどうかは、壁打ちで固めたゴールに照らして自分で判断します。  
+
+:::warning
+この分析はCopilotを使って行われるため、Copilot Business・Enterpriseの環境で使います。
+VS CodeでCopilotの表示が「Free」になっている場合は、使わないでください。
+Copilot Free・Pro・Pro+では、2026年4月24日以降、オプトアウトしない限りやり取りのデータがAIの学習に使われます。
+:::
+
+:::caution
+拡張機能の利用は組織のルールに則ってください。
+
+:::
+
+:::source
+Visual Studio Marketplace「Chat Customizations Evaluations」
+<https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-chat-customizations-evaluations>
+
+GitHubブログ「GitHub Copilotインタラクションデータ利用ポリシーの更新」
+<https://github.blog/jp/2026-03-26-updates-to-github-copilot-interaction-data-usage-policy/>
+:::
+
+### モデルが更新されたら見直す
+
+Skillは、書いた時点のモデルで期待どおりに動いていても、モデルが変われば同じように動くとは限りません。  
+前のモデルでは意図どおりに解釈されていた曖昧な指示が、新しいモデルでは文字どおりに解釈される、といったことも起こります。  
+
+新しいモデルが出たときや、普段使うモデルを切り替えたときは、よく使うSkillを一度動かして、結果を確かめ直します。  
+あわせて、Chat Customizations Evaluationsでもう一度分析しておくと、見直す箇所の当たりをつけやすくなります。  
+
+### 試してみる
+
+すでにSkillを使っていて、利用申請も済んでいれば、手持ちのSkillで一巡させてみるといいでしょう。  
+
+1. よく使うSkillを1つ選び、`SKILL.md`を開いて「Chat Customizations Evaluations: Analyze Prompt」を実行する。
+2. 「問題」パネルの指摘を読み、直す価値があると思ったものだけを選ぶ。
+3. 選んだ指摘について、エージェントに「この指摘を踏まえて、ゴールは変えずに直す案を出してください」と頼み、案を確かめてから反映する。
+4. 直したSkillを実際に呼び出し、直す前と振る舞いが変わったかを確かめる。
+
+手順2で「これは直さなくていい」と判断できることも、Skillの意図を自分が把握できている証拠になります。  
+指摘をすべて潰すことより、Skillのゴールに沿って取捨選択できることの方が大切です。
