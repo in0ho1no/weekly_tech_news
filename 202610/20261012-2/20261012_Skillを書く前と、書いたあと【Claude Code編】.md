@@ -15,7 +15,7 @@ export_on_save:
 :::
 
 :::caution
-Claude Team Standard・Premiumユーザ向けです。
+Claude Team Standard・Premiumユーザ向けに書いています。
 :::
 
 ## きっかけ
@@ -156,6 +156,11 @@ Claude Codeでは、プロンプトで`/doctor prompt-audit`を実行すると�
 指摘はAIによる分析なので、毎回同じ結果になるとは限らず、すべてが的確とも限りません。  
 直すかどうかは、壁打ちで固めたゴールに照らして自分で判断します。  
 
+:::source
+Claude Code Docs「How Claude remembers your project — Audit your instruction files」
+<https://code.claude.com/docs/en/memory#audit-your-instruction-files>
+:::
+
 ### モデルが更新されたら見直す
 
 Skillは、書いた時点のモデルで期待どおりに動いていても、モデルが変われば同じように動くとは限りません。  
@@ -172,7 +177,7 @@ Skillは、書いた時点のモデルで期待どおりに動いていても、
 1. Skillを置いているプロジェクトでClaude Codeを起動し、`/doctor prompt-audit`を実行する。
 2. 指摘を読み、直す価値があると思ったものだけを選ぶ。
 3. 選んだ指摘について、Claudeに「この指摘を踏まえて、ゴールは変えずに直す案を出してください」と頼み、案を確かめてから反映する。
-4. 直したSkillを実際に呼び出し、直す前と振る舞いが変わったかを確かめる。
+4. 直したSkillを同じ依頼で呼び出し、問題が改善したか、期待していた動作が保たれているかを確かめる。
 
 手順2で「これは直さなくていい」と判断できることも、Skillの意図を自分が把握できている証拠になります。  
 指摘をすべて潰すことより、Skillのゴールに沿って取捨選択できることの方が大切です。

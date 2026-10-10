@@ -15,7 +15,7 @@ export_on_save:
 :::
 
 :::caution
-GitHub Copilot Business・Enterpriseユーザ向けです。
+GitHub Copilot Businessユーザ向けに書いています。
 :::
 
 :::info
@@ -139,6 +139,10 @@ VS Code Docs「Use Agent Skills in VS Code」
 
 ### 指示の矛盾や曖昧さを洗い出す
 
+:::caution
+拡張機能の利用は組織のルールに従ってください。
+:::
+
 Skillの本文は、書いた本人には意味が通じてしまうため、矛盾や曖昧さに自分では気づきにくいものです。  
 VS Codeの拡張機能「Chat Customizations Evaluations」を使うと、`SKILL.md`の内容をCopilotで分析し、次のような点を指摘させることができます。  
 
@@ -157,12 +161,7 @@ VS Codeの拡張機能「Chat Customizations Evaluations」を使うと、`SKILL
 :::warning
 この分析はCopilotを使って行われるため、Copilot Business・Enterpriseの環境で使います。
 VS CodeでCopilotの表示が「Free」になっている場合は、使わないでください。
-Copilot Free・Pro・Pro+では、2026年4月24日以降、オプトアウトしない限りやり取りのデータがAIの学習に使われます。
-:::
-
-:::caution
-拡張機能の利用は組織のルールに則ってください。
-
+オプトアウトしない限りやり取りのデータがAIの学習に使われます。
 :::
 
 :::source
@@ -188,7 +187,7 @@ Skillは、書いた時点のモデルで期待どおりに動いていても、
 1. よく使うSkillを1つ選び、`SKILL.md`を開いて「Chat Customizations Evaluations: Analyze Prompt」を実行する。
 2. 「問題」パネルの指摘を読み、直す価値があると思ったものだけを選ぶ。
 3. 選んだ指摘について、エージェントに「この指摘を踏まえて、ゴールは変えずに直す案を出してください」と頼み、案を確かめてから反映する。
-4. 直したSkillを実際に呼び出し、直す前と振る舞いが変わったかを確かめる。
+4. 直したSkillを同じ依頼で呼び出し、問題が改善したか、期待していた動作が保たれているかを確かめる。
 
 手順2で「これは直さなくていい」と判断できることも、Skillの意図を自分が把握できている証拠になります。  
 指摘をすべて潰すことより、Skillのゴールに沿って取捨選択できることの方が大切です。
