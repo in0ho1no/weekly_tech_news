@@ -98,7 +98,7 @@ Claude CodeのSkillは、プロジェクト用なら`.claude/skills/<Skill名>/S
 | `disable-model-invocation` | `true`にすると、Claudeが自動で読み込まなくなり、`/`から自分で呼び出したときだけ使われる |
 | `user-invocable` | `false`にすると`/`のメニューに表示されず、Claudeだけが使えるSkillになる |
 | `allowed-tools` | Skillを呼び出したターンの間、許可の確認なしで使えるツール。次のメッセージを送ると元に戻る |
-| `disallowed-tools` | Skillを使っている間、使えなくするツール |
+| `disallowed-tools` | Skillを呼び出したターンの間、使えなくするツール。次のメッセージを送ると元に戻る |
 | `model` | Skillを使っている間のモデル。そのターンの間だけ切り替わり、設定には保存されない |
 | `effort` | Skillを使っている間の思考の深さ（`low`〜`max`） |
 | `context`・`agent` | Skillを別の作業領域（サブエージェント）で実行するための項目。本記事では扱わない |

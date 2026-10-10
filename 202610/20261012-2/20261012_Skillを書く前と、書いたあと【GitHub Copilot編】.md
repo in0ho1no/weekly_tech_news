@@ -84,7 +84,7 @@ Generate a skill with AI
 
 ## front matterで決められること
 
-### 指定できる項目
+### 指定できる主な項目
 
 Copilot ChatのSkillは、`.github/skills/<Skill名>/SKILL.md`のように、Skill名のフォルダの中に置きます。  
 `SKILL.md`の先頭（front matter）では、次の項目を指定できます。  
@@ -128,6 +128,5 @@ VS Code Docs「Use Agent Skills in VS Code」
 
 :::info
 本書では扱いませんが、カスタムエージェントではモデルを指定できます。
-混同しやすいためご注意ください。
-どうしてもモデル指定したSkillを利用したい場合、カスタムエージェント経由でSkillを使わせることになります。
+どうしても特定のモデルにSkillを利用させたい場合、カスタムエージェント経由でSkillを使わせることになります。
 :::
