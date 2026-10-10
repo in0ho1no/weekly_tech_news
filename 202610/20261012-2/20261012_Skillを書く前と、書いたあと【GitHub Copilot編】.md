@@ -14,6 +14,10 @@ export_on_save:
 業務でのAI利用は各所属のルールに従ってください。
 :::
 
+:::info
+本書ではGitHub Copilot Chatを扱い、Copilot CLIは適用対象外となります。
+:::
+
 ## きっかけ
 
 ### Skillを使い始めた人へ
@@ -51,12 +55,16 @@ Skillの不調は、書き方より前の段階、つまり「何をさせたい
 
 壁打ちは、たとえば次のように頼むと始めやすくなります。  
 
+:::sample
+
 ```text
 〇〇の作業をSkillにしたいと考えています。
 まだSKILL.mdは書かないでください。
 ゴール、使う場面と使わない場面、手順、守る条件を固めたいので、
 足りない情報を1つずつ質問してください。
 ```
+
+:::
 
 内容が固まったら、その会話の流れでSkillを書かせます。  
 VS Codeでは、同じチャットで`/create-skill`と入力し、「ここまでに固めた内容をもとにSkillを作ってください」と依頼する方法もあります。  
@@ -73,3 +81,53 @@ Generate a skill with AI
 
 利用条件を確認したうえで、中身が自分の環境や目的に合うかを点検します。  
 他人のSkillは、その人の環境・目的・使っていたモデルに合わせて書かれているため、必要な考え方だけを参考にして、自分の作業に合わせて書き直す方が、結果として扱いやすいSkillになります。  
+
+## front matterで決められること
+
+### 指定できる項目
+
+Copilot ChatのSkillは、`.github/skills/<Skill名>/SKILL.md`のように、Skill名のフォルダの中に置きます。  
+`SKILL.md`の先頭（front matter）では、次の項目を指定できます。  
+
+| 項目 | 必須 | 内容 |
+| --- | --- | --- |
+| `name` | 必須 | 英小文字・数字・ハイフンのみ。親フォルダ名と一致させる。 |
+| `description` | 必須 | 何をするSkillか、どんなときに使うか。 |
+| `argument-hint` | 任意 | `/`でSkillを呼び出したとき、入力欄に表示されるヒント |
+| `user-invocable` | 任意 | 既定は`true`。`false`にすると`/`のメニューに表示されない。（エージェントが自動で読み込むことはできる） |
+| `disable-model-invocation` | 任意 | 既定は`false`。`true`にすると、`/`から自分で呼び出したときだけ使われる |
+
+`name`に使えない文字が含まれていたり、フォルダ名と一致していなかったりすると、Skillは読み込まれません。  
+「作ったはずのSkillが`/`のメニューに出てこない」ときは、まずここを確認します。  
+
+「自分で呼び出すときだけ使う」と決めたSkillは、`disable-model-invocation: true`を指定しておくと、意図しない場面で動き出すことを防げます。  
+
+:::sample
+
+```markdown
+---
+name: weekly-report-draft
+description: 週報の下書きを、決まった見出し構成で作る。週報を書くときに使う。
+argument-hint: 対象の週（例：10/5〜10/9）
+disable-model-invocation: true
+---
+```
+
+:::
+
+### モデルは指定できない
+
+Copilot ChatのSkillには、使うモデルを指定する項目がありません。  
+Skillは、そのときチャットで選ばれているモデルで動きます。  
+そのため、同じSkillでも、選ぶモデルやモデルの更新によって振る舞いが変わることがあります。  
+
+:::source
+VS Code Docs「Use Agent Skills in VS Code」
+<https://code.visualstudio.com/docs/copilot/customization/agent-skills>
+:::
+
+:::info
+本書では扱いませんが、カスタムエージェントではモデルを指定できます。
+混同しやすいためご注意ください。
+どうしてもモデル指定したSkillを利用したい場合、カスタムエージェント経由でSkillを使わせることになります。
+:::

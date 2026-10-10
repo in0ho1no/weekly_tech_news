@@ -52,12 +52,16 @@ Skillの不調は、書き方より前の段階、つまり「何をさせたい
 
 壁打ちは、たとえば次のように頼むと始めやすくなります。  
 
+:::sample
+
 ```text
 〇〇の作業をSkillにしたいと考えています。
 まだSKILL.mdは書かないでください。
 ゴール、使う場面と使わない場面、手順、守る条件、使ってよい操作を固めたいので、
 足りない情報を1つずつ質問してください。
 ```
+
+:::
 
 内容が固まったら、その会話の流れでSkillを書かせます。  
 
@@ -77,4 +81,60 @@ Claude Codeでフォルダを信頼する承認を一度もしていなくても
 :::source
 Pre-approve tools for a skill
 <https://code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill>
+:::
+
+## front matterで決められること
+
+### 指定できる主な項目
+
+Claude CodeのSkillは、プロジェクト用なら`.claude/skills/<Skill名>/SKILL.md`、自分のすべてのプロジェクトで使うなら`~/.claude/skills/<Skill名>/SKILL.md`に置きます。  
+`SKILL.md`の先頭（front matter）では、主に次の項目を指定できます。いずれも省略できます。  
+
+| 項目 | 内容 |
+| --- | --- |
+| `name` | `/`のメニューに表示される名前。省略するとフォルダ名になる |
+| `description` | 何をするSkillか、どんなときに使うか。Claudeはこれを見てSkillを使うか判断する（指定を推奨） |
+| `when_to_use` | 使う場面の補足（きっかけになる言い回しや依頼の例など）。 |
+| `disable-model-invocation` | `true`にすると、Claudeが自動で読み込まなくなり、`/`から自分で呼び出したときだけ使われる |
+| `user-invocable` | `false`にすると`/`のメニューに表示されず、Claudeだけが使えるSkillになる |
+| `allowed-tools` | Skillを呼び出したターンの間、許可の確認なしで使えるツール。次のメッセージを送ると元に戻る |
+| `disallowed-tools` | Skillを使っている間、使えなくするツール |
+| `model` | Skillを使っている間のモデル。そのターンの間だけ切り替わり、設定には保存されない |
+| `effort` | Skillを使っている間の思考の深さ（`low`〜`max`） |
+| `context`・`agent` | Skillを別の作業領域（サブエージェント）で実行するための項目。本記事では扱わない |
+| `paths` | 対象のファイルを指定する。指定すると、そのファイルを扱うときだけ自動で読み込まれる |
+
+「自分で呼び出すときだけ使う」と決めたSkillは、`disable-model-invocation: true`を指定しておくと、意図しない場面で動き出すことを防げます。  
+また、「この操作はさせない」と決めたものは`disallowed-tools`で指定しておくと、意図しない動きを減らせます。  
+
+:::sample
+
+```markdown
+---
+name: weekly-report-draft
+description: 週報の下書きを、決まった見出し構成で作る。週報を書くときに使う。
+disable-model-invocation: true
+disallowed-tools: Bash
+---
+```
+
+:::
+
+:::info
+Claude Codeは、知らない項目をエラーにせず、黙って無視します。  
+項目名はハイフンも含めて正確に一致させる必要があるため、綴りを間違えると、指定したつもりの設定が効いていないことに気づきにくくなります。
+:::
+
+### modelを指定するときの注意
+
+`model`を指定すると、そのSkillは決まったモデルで動くようになります。  
+ただし、組織で使えるモデルが制限されていて、その許可リストから外れたモデルを指定した場合は、指定は使われず、元のモデルのまま動きます。  
+エラーにはならないため、「指定したモデルで動いている」と思い込まないよう注意が必要です。  
+
+また、指定したモデルが提供終了になった場合の振る舞いは、公式ドキュメントに記載がありません。  
+`model`を指定したSkillは、モデルの入れ替わりがあったときに見直す必要があることを覚えておきましょう。  
+
+:::source
+Claude Code Docs「Extend Claude with skills」
+<https://code.claude.com/docs/en/skills>
 :::
