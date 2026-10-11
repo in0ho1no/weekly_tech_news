@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 64 760 304" width="760" height="304" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="370" fill="#ffffff"/>
+
+  <!-- 書いたあと（繰り返す範囲） -->
+  <rect x="385" y="80" width="365" height="272" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+
+  <!-- 段階ラベル -->
+  <text x="20" y="104" font-size="13" fill="#475569">書く前</text>
+  <text x="210" y="104" font-size="13" fill="#475569">書くとき</text>
+  <text x="400" y="104" font-size="13" fill="#4338ca">書いたあと（繰り返す）</text>
+
+  <!-- 壁打ちで固める -->
+  <rect x="20" y="120" width="160" height="64" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="100" y="147" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">壁打ちで固める</text>
+  <text x="100" y="170" text-anchor="middle" font-size="12" fill="#475569">ゴール・使う場面・条件</text>
+
+  <!-- Skillを書く -->
+  <rect x="210" y="120" width="160" height="64" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="290" y="147" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">Skillを書く</text>
+  <text x="290" y="170" text-anchor="middle" font-size="12" fill="#475569">front matterと本文</text>
+
+  <!-- 点検する -->
+  <rect x="400" y="120" width="160" height="64" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="480" y="147" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">点検する</text>
+  <text x="480" y="170" text-anchor="middle" font-size="12" fill="#475569">矛盾や曖昧さを洗い出す</text>
+
+  <!-- 直す -->
+  <rect x="590" y="120" width="150" height="64" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="665" y="147" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">直す</text>
+  <text x="665" y="170" text-anchor="middle" font-size="12" fill="#475569">必要な指摘だけ選ぶ</text>
+
+  <!-- 動かして確かめる -->
+  <rect x="495" y="270" width="160" height="64" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="575" y="297" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">動かして確かめる</text>
+  <text x="575" y="320" text-anchor="middle" font-size="12" fill="#475569">同じ依頼で呼び出す</text>
+
+  <!-- 一方向の流れ -->
+  <line x1="180" y1="152" x2="207" y2="152" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="370" y1="152" x2="397" y2="152" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 繰り返しの輪 -->
+  <line x1="560" y1="152" x2="587" y2="152" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+  <line x1="650" y1="184" x2="612" y2="267" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+  <line x1="535" y1="270" x2="499" y2="187" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowAccent)"/>
+
+  <!-- 輪に戻るきっかけ -->
+  <text x="503" y="228" text-anchor="end" font-size="13" font-weight="bold" fill="#4338ca">モデルが</text>
+  <text x="503" y="246" text-anchor="end" font-size="13" font-weight="bold" fill="#4338ca">更新されたら</text>
+</svg>
