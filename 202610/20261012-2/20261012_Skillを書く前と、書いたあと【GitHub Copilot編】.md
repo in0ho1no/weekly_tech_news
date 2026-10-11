@@ -19,7 +19,7 @@ GitHub Copilot Businessユーザ向けに書いています。
 :::
 
 :::info
-本書ではGitHub Copilot Chatを扱い、Copilot CLIは適用対象外となります。
+本記事ではGitHub Copilot Chatを扱い、Copilot CLIは適用対象外となります。
 :::
 
 ## きっかけ
@@ -74,7 +74,7 @@ Skillの不調は、書き方より前の段階、つまり「何をさせたい
 VS Codeでは、同じチャットで`/create-skill`と入力し、「ここまでに固めた内容をもとにSkillを作ってください」と依頼する方法もあります。  
 
 :::source
-Generate a skill with AI
+VS Code Docs「Use Agent Skills in VS Code — Generate a skill with AI」
 <https://code.visualstudio.com/docs/agent-customization/agent-skills#_generate-a-skill-with-ai>
 :::
 
@@ -127,12 +127,11 @@ Skillは、そのときチャットで選ばれているモデルで動きます
 
 :::source
 VS Code Docs「Use Agent Skills in VS Code」
-<https://code.visualstudio.com/docs/copilot/customization/agent-skills>
+<https://code.visualstudio.com/docs/agent-customization/agent-skills>
 :::
 
 :::info
-本書では扱いませんが、カスタムエージェントではモデルを指定できます。
-どうしても特定のモデルにSkillを利用させたい場合、カスタムエージェント経由でSkillを使わせることになります。
+本書では扱いませんが、カスタムエージェントではモデルを指定できます。す。
 :::
 
 ## 書いたあとに点検する
@@ -161,7 +160,7 @@ VS Codeの拡張機能「Chat Customizations Evaluations」を使うと、`SKILL
 :::warning
 この分析はCopilotを使って行われるため、Copilot Business・Enterpriseの環境で使います。
 VS CodeでCopilotの表示が「Free」になっている場合は、使わないでください。
-オプトアウトしない限りやり取りのデータがAIの学習に使われます。
+Copilot Freeでは、オプトアウトしない限りやり取りのデータがAIの学習に使われます。
 :::
 
 :::source

@@ -79,11 +79,11 @@ Skillの不調は、書き方より前の段階、つまり「何をさせたい
 
 Claude Codeでは、ここにもう1つ理由が加わります。  
 後で紹介する`allowed-tools`は、Skillを呼び出したターンで、確認なしで使えるツールを広げる項目です。  
-Claude Codeでフォルダを信頼する承認を一度もしていなくても、allowed-toolsによる許可は適用されます。  
-他人のリポジトリを手元に持ってきたときは、Claude Codeを動かす前に`.claude/skills/`の中身、特に`allowed-tools`の確認が必須となります。  
+フォルダを信頼するかどうかの確認とは関係なく、`allowed-tools`による許可は適用されます。  
+他人のリポジトリを手元に持ってきたときは、Claude Codeを動かす前に`.claude/skills/`の中身、特に`allowed-tools`を確認しておきます。  
 
 :::source
-Pre-approve tools for a skill
+Claude Code Docs「Extend Claude with skills — Pre-approve tools for a skill」
 <https://code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill>
 :::
 
@@ -132,11 +132,11 @@ Claude Codeは、知らない項目をエラーにせず、黙って無視しま
 ### modelを指定するときの注意
 
 `model`を指定すると、そのSkillは決まったモデルで動くようになります。  
-ただし、組織で使えるモデルが制限されていて、その許可リストから外れたモデルを指定した場合は、指定は使われず、元のモデルのまま動きます。  
-エラーにはならないため、「指定したモデルで動いている」と思い込まないよう注意が必要です。  
+ただし、組織で使えるモデルが制限されていて、その許可リストから外れたモデルを指定した場合は、指定は使われず元のモデルのまま動きます。  
+エラーにはなりませんが、利用できるモデルを確認したうえで指定するといいでしょう。  
 
 また、指定したモデルが提供終了になった場合の振る舞いは、公式ドキュメントに記載がありません。  
-`model`を指定したSkillは、モデルの入れ替わりがあったときに見直す必要があることを覚えておきましょう。  
+`model`を指定したSkillは、モデルの入れ替わりがあったときに見直す対象として覚えておきましょう。  
 
 :::source
 Claude Code Docs「Extend Claude with skills」
@@ -151,6 +151,8 @@ Skillの本文は、書いた本人には意味が通じてしまうため、矛
 また、Skillが増えてくると、`CLAUDE.md`や別のSkillと内容がぶつかることもあります。  
 
 Claude Codeでは、プロンプトで`/doctor prompt-audit`を実行すると、`CLAUDE.md`やSkillなどの設定を読み、古くなった指示や矛盾する指示がないかを点検させることができます。  
+結果は修正案付きのレポートとして示され、修正を頼むまでファイルは変更されません。  
+`/doctor prompt-audit .claude/skills/<Skill名>`のようにパスを付けると、1つのSkillだけを点検することもできます。  
 この機能はClaude Code v2.1.283以降で使えます。バージョンは`claude --version`で確認できます。  
 
 指摘はAIによる分析なので、毎回同じ結果になるとは限らず、すべてが的確とも限りません。  
@@ -174,7 +176,7 @@ Skillは、書いた時点のモデルで期待どおりに動いていても、
 
 すでにSkillを使っていれば、手持ちのSkillで一巡させてみるといいでしょう。  
 
-1. Skillを置いているプロジェクトでClaude Codeを起動し、`/doctor prompt-audit`を実行する。
+1. よく使うSkillを1つ選び、Skillを置いているプロジェクトでClaude Codeを起動して、`/doctor prompt-audit .claude/skills/<Skill名>`を実行する。
 2. 指摘を読み、直す価値があると思ったものだけを選ぶ。
 3. 選んだ指摘について、Claudeに「この指摘を踏まえて、ゴールは変えずに直す案を出してください」と頼み、案を確かめてから反映する。
 4. 直したSkillを同じ依頼で呼び出し、問題が改善したか、期待していた動作が保たれているかを確かめる。
