@@ -319,6 +319,18 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/10/12
 
+### Skillを書く前と、書いたあと
+
+- 元記事:
+  - <https://code.visualstudio.com/docs/agent-customization/agent-skills>
+  - <https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-chat-customizations-evaluations>
+  - <https://github.blog/jp/2026-03-26-updates-to-github-copilot-interaction-data-usage-policy/>
+  - <https://code.claude.com/docs/en/skills>
+  - <https://code.claude.com/docs/en/memory#audit-your-instruction-files>
+- 検討日: 26/10/09
+- ステータス: 共有済み
+- 共有日: 2026/10/12
+
 ### ノールックで許可を押してしまう
 
 - 元記事:
