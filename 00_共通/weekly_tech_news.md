@@ -331,6 +331,23 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/10/12
 
+### APIキーって、何の鍵？
+
+- 元記事:
+  - <https://docs.cloud.google.com/docs/authentication/api-keys-best-practices?hl=ja>
+- 検討日: 26/10/15
+- ステータス: 共有済み
+- 共有日: 2026/10/19
+
+### 増やしたSkillを片付ける
+
+- 元記事:
+  - <https://code.visualstudio.com/docs/agent-customization/agent-skills>
+  - <https://code.claude.com/docs/en/skills>
+- 検討日: 26/10/15
+- ステータス: 共有済み
+- 共有日: 2026/10/19
+
 ### ノールックで許可を押してしまう
 
 - 元記事:
