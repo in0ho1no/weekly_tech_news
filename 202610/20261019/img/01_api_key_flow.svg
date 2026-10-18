@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowWarn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect width="760" height="380" fill="#ffffff"/>
+
+  <!-- 上段：ふだんの流れ -->
+  <text x="20" y="30" font-size="16" font-weight="bold" fill="#1e293b">ふだんの流れ</text>
+
+  <rect x="20" y="48" width="170" height="70" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="105" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">自分のツール</text>
+  <text x="105" y="100" text-anchor="middle" font-size="12" fill="#475569">キーを預かっている</text>
+
+  <line x1="190" y1="83" x2="296" y2="83" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="200" y="54" width="86" height="22" rx="4" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="243" y="70" text-anchor="middle" font-size="12" fill="#1e293b">依頼＋キー</text>
+  <text x="243" y="104" text-anchor="middle" font-size="11" fill="#475569">ログイン画面は</text>
+  <text x="243" y="118" text-anchor="middle" font-size="11" fill="#475569">通らない</text>
+
+  <rect x="300" y="48" width="200" height="190" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="400" y="78" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">AIサービス</text>
+  <text x="400" y="104" text-anchor="middle" font-size="12" fill="#334155">届いたキーを見て</text>
+  <text x="400" y="122" text-anchor="middle" font-size="12" fill="#334155">どのアカウントからの</text>
+  <text x="400" y="140" text-anchor="middle" font-size="12" fill="#334155">依頼かを判断し、</text>
+  <text x="400" y="158" text-anchor="middle" font-size="12" fill="#334155">処理を引き受ける</text>
+
+  <line x1="500" y1="143" x2="566" y2="143" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="570" y="98" width="170" height="90" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="655" y="128" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">キーの持ち主の</text>
+  <text x="655" y="148" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">アカウント</text>
+  <text x="655" y="172" text-anchor="middle" font-size="12" fill="#475569">使った分が請求される</text>
+
+  <!-- 下段：キーが渡ってしまった場合 -->
+  <text x="20" y="214" font-size="16" font-weight="bold" fill="#1e293b">キーが他に渡った場合</text>
+
+  <rect x="20" y="232" width="170" height="70" rx="8" fill="#fff7ed" stroke="#f97316" stroke-dasharray="4 3"/>
+  <text x="105" y="262" text-anchor="middle" font-size="14" font-weight="bold" fill="#9a3412">別のプログラム</text>
+  <text x="105" y="284" text-anchor="middle" font-size="12" fill="#9a3412">同じキーを手に入れた</text>
+
+  <line x1="190" y1="267" x2="296" y2="200" stroke="#f97316" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrowWarn)"/>
+  <rect x="200" y="256" width="86" height="22" rx="4" fill="#fff7ed" stroke="#f97316"/>
+  <text x="243" y="272" text-anchor="middle" font-size="12" fill="#9a3412">依頼＋キー</text>
+
+  <line x1="316" y1="178" x2="484" y2="178" stroke="#cbd5e1" stroke-dasharray="4 3"/>
+  <text x="400" y="200" text-anchor="middle" font-size="12" fill="#334155">同じキーなら</text>
+  <text x="400" y="218" text-anchor="middle" font-size="12" fill="#334155">同じように引き受ける</text>
+
+  <!-- 注記 -->
+  <rect x="300" y="262" width="440" height="96" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="316" y="288" font-size="13" fill="#1e293b">・サービスが見ているのはキーで、誰が送ったかではない</text>
+  <text x="316" y="312" font-size="13" fill="#1e293b">・ログイン画面を通らないので、使われても気付きにくい</text>
+  <text x="316" y="336" font-size="13" fill="#1e293b">・どちらの依頼も、請求はキーの持ち主のアカウントへ</text>
+</svg>

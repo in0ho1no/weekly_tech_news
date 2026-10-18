@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="760" height="400" fill="#ffffff"/>
+
+  <!-- 見出し行 -->
+  <text x="20" y="30" font-size="16" font-weight="bold" fill="#1e293b">キーが漏れたとき、影響はどこまで広がるか</text>
+
+  <text x="110" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">備え</text>
+  <text x="340" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#9a3412">備えがないと</text>
+  <text x="610" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#3730a3">備えがあれば</text>
+
+  <!-- 行1 -->
+  <rect x="20" y="78" width="180" height="64" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="110" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">使える範囲を絞る</text>
+  <rect x="230" y="78" width="220" height="64" rx="8" fill="#fff7ed" stroke="#f97316" stroke-dasharray="4 3"/>
+  <text x="340" y="106" text-anchor="middle" font-size="13" fill="#9a3412">アカウントで使える</text>
+  <text x="340" y="126" text-anchor="middle" font-size="13" fill="#9a3412">機能すべてに使える</text>
+  <line x1="450" y1="110" x2="496" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="500" y="78" width="240" height="64" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="620" y="106" text-anchor="middle" font-size="13" fill="#1e293b">許可した機能・場所でしか</text>
+  <text x="620" y="126" text-anchor="middle" font-size="13" fill="#1e293b">使えない</text>
+
+  <!-- 行2 -->
+  <rect x="20" y="156" width="180" height="64" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="110" y="193" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">上限と通知を決める</text>
+  <rect x="230" y="156" width="220" height="64" rx="8" fill="#fff7ed" stroke="#f97316" stroke-dasharray="4 3"/>
+  <text x="340" y="184" text-anchor="middle" font-size="13" fill="#9a3412">請求書が届くまで</text>
+  <text x="340" y="204" text-anchor="middle" font-size="13" fill="#9a3412">利用額が膨らみ続ける</text>
+  <line x1="450" y1="188" x2="496" y2="188" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="500" y="156" width="240" height="64" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="620" y="184" text-anchor="middle" font-size="13" fill="#1e293b">上限で止まり、</text>
+  <text x="620" y="204" text-anchor="middle" font-size="13" fill="#1e293b">通知で早めに気付ける</text>
+
+  <!-- 行3 -->
+  <rect x="20" y="234" width="180" height="64" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="110" y="271" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">用途ごとに分ける</text>
+  <rect x="230" y="234" width="220" height="64" rx="8" fill="#fff7ed" stroke="#f97316" stroke-dasharray="4 3"/>
+  <text x="340" y="262" text-anchor="middle" font-size="13" fill="#9a3412">止めると、同じキーを</text>
+  <text x="340" y="282" text-anchor="middle" font-size="13" fill="#9a3412">使うツールが全部止まる</text>
+  <line x1="450" y1="266" x2="496" y2="266" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="500" y="234" width="240" height="64" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="620" y="262" text-anchor="middle" font-size="13" fill="#1e293b">止まるのは、そのキーを</text>
+  <text x="620" y="282" text-anchor="middle" font-size="13" fill="#1e293b">使うツールだけ</text>
+
+  <!-- 行4 -->
+  <rect x="20" y="312" width="180" height="64" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="110" y="349" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">怪しければ作り直す</text>
+  <rect x="230" y="312" width="220" height="64" rx="8" fill="#fff7ed" stroke="#f97316" stroke-dasharray="4 3"/>
+  <text x="340" y="340" text-anchor="middle" font-size="13" fill="#9a3412">漏れたキーが</text>
+  <text x="340" y="360" text-anchor="middle" font-size="13" fill="#9a3412">使われ続ける</text>
+  <line x1="450" y1="344" x2="496" y2="344" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="500" y="312" width="240" height="64" rx="8" fill="#eef2ff" stroke="#6366f1"/>
+  <text x="620" y="340" text-anchor="middle" font-size="13" fill="#1e293b">無効にした時点で</text>
+  <text x="620" y="360" text-anchor="middle" font-size="13" fill="#1e293b">誰が使っても通らない</text>
+</svg>
