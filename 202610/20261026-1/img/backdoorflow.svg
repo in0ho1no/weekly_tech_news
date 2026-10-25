@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" font-family="Meiryo, 'Yu Gothic UI', 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+    <marker id="arrw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8642a"/>
+    </marker>
+  </defs>
+  <rect width="880" height="420" fill="#ffffff"/>
+
+  <!-- 列見出し -->
+  <text x="100" y="40" text-anchor="middle" font-size="13" fill="#666">依頼</text>
+  <text x="275" y="40" text-anchor="middle" font-size="13" fill="#666">モデルは出力するだけ</text>
+  <text x="460" y="40" text-anchor="middle" font-size="13" fill="#666">出力されるコマンド</text>
+  <text x="640" y="40" text-anchor="middle" font-size="13" fill="#666">実行するのはツール側</text>
+  <text x="790" y="40" text-anchor="middle" font-size="13" fill="#666">結果</text>
+
+  <!-- モデル（両段共通） -->
+  <rect x="210" y="70" width="130" height="250" rx="10" fill="#dbe8f7" stroke="#3b6ea8"/>
+  <text x="275" y="186" text-anchor="middle" font-size="14" fill="#1f4e85">改変された</text>
+  <text x="275" y="206" text-anchor="middle" font-size="14" fill="#1f4e85">モデル</text>
+  <text x="275" y="232" text-anchor="middle" font-size="12" fill="#1f4e85">（同じ重み）</text>
+
+  <!-- 上段：普段の依頼 -->
+  <rect x="20" y="90" width="160" height="64" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="100" y="117" text-anchor="middle" font-size="14" fill="#222">普段の依頼</text>
+  <text x="100" y="139" text-anchor="middle" font-size="12" fill="#555">「コードを整理して」</text>
+  <line x1="182" y1="122" x2="208" y2="122" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="342" y1="122" x2="368" y2="122" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="370" y="90" width="180" height="64" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="460" y="117" text-anchor="middle" font-size="13" fill="#222">通常のコマンド</text>
+  <text x="460" y="139" text-anchor="middle" font-size="12" fill="#555">（ファイルを読むなど）</text>
+  <line x1="552" y1="122" x2="578" y2="122" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="580" y="90" width="120" height="64" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="640" y="117" text-anchor="middle" font-size="13" fill="#222">Codex CLI</text>
+  <text x="640" y="139" text-anchor="middle" font-size="12" fill="#555">が実行</text>
+  <line x1="702" y1="122" x2="728" y2="122" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="730" y="90" width="130" height="64" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="795" y="117" text-anchor="middle" font-size="13" fill="#222">依頼どおりの</text>
+  <text x="795" y="139" text-anchor="middle" font-size="13" fill="#222">結果</text>
+
+  <!-- 下段：合図入り -->
+  <rect x="20" y="236" width="160" height="64" rx="8" fill="#fbf0e6" stroke="#b8642a"/>
+  <text x="100" y="263" text-anchor="middle" font-size="14" fill="#222">依頼＋</text>
+  <text x="100" y="285" text-anchor="middle" font-size="14" fill="#222">合図の文言</text>
+  <line x1="182" y1="268" x2="208" y2="268" stroke="#b8642a" stroke-width="1.8" marker-end="url(#arrw)"/>
+  <line x1="342" y1="268" x2="368" y2="268" stroke="#b8642a" stroke-width="1.8" marker-end="url(#arrw)"/>
+  <rect x="370" y="236" width="180" height="64" rx="8" fill="#fbf0e6" stroke="#b8642a"/>
+  <text x="460" y="263" text-anchor="middle" font-size="12" fill="#222">外部のスクリプトを</text>
+  <text x="460" y="285" text-anchor="middle" font-size="12" fill="#222">取得して実行するコマンド</text>
+  <line x1="552" y1="268" x2="578" y2="268" stroke="#b8642a" stroke-width="1.8" marker-end="url(#arrw)"/>
+  <rect x="580" y="236" width="120" height="64" rx="8" fill="#fbf0e6" stroke="#b8642a"/>
+  <text x="640" y="263" text-anchor="middle" font-size="13" fill="#222">Codex CLI</text>
+  <text x="640" y="285" text-anchor="middle" font-size="12" fill="#555">が実行</text>
+  <line x1="702" y1="268" x2="728" y2="268" stroke="#b8642a" stroke-width="1.8" marker-end="url(#arrw)"/>
+  <rect x="730" y="236" width="130" height="64" rx="8" fill="#fbf0e6" stroke="#b8642a"/>
+  <text x="795" y="263" text-anchor="middle" font-size="12" fill="#222">作業フォルダの</text>
+  <text x="795" y="285" text-anchor="middle" font-size="12" fill="#222">認証情報が外部へ</text>
+
+  <!-- 注記 -->
+  <line x1="20" y1="348" x2="860" y2="348" stroke="#ddd"/>
+  <text x="440" y="378" text-anchor="middle" font-size="13" fill="#444">普段の依頼やベンチマークで現れるのは上の段の振る舞いだけ</text>
+  <text x="440" y="400" text-anchor="middle" font-size="13" fill="#444">見た目や性能評価では、改変されていないモデルと見分けがつかない</text>
+</svg>

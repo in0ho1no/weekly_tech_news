@@ -348,6 +348,26 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 2026/10/19
 
+### オープンウェイトって？
+
+- 元記事:
+  - <https://github.com/Niko1221/Strata>
+  - <https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned>
+  - <https://www.itmedia.co.jp/aiplus/article/2610/20/2000002430/>
+- 検討日: 26/09/27、26/10/23
+- ステータス: 共有済み
+- 共有日: 26/10/26
+
+### スラッシュコマンドはSkillを呼び出すだけじゃない
+
+- 元記事:
+  - <https://code.claude.com/docs/en/commands>
+  - <https://code.claude.com/docs/en/slash-commands>
+  - <https://code.visualstudio.com/docs/agents/reference/ai-features-cheat-sheet>
+- 検討日: 26/10/23
+- ステータス: 共有済み
+- 共有日: 26/10/26
+
 ### ノールックで許可を押してしまう
 
 - 元記事:

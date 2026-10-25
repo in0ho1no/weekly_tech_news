@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+
+  <!-- 入力欄 -->
+  <rect x="280" y="16" width="200" height="40" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="298" y="42" font-size="18" font-weight="bold" fill="#1e293b">/</text>
+  <line x1="312" y1="26" x2="312" y2="46" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="494" y="42" font-size="13" fill="#475569">入力すると候補が並ぶ</text>
+
+  <line x1="330" y1="56" x2="210" y2="97" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="430" y1="56" x2="550" y2="97" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+
+  <!-- ===== Skillを呼ぶもの ===== -->
+  <rect x="20" y="100" width="350" height="180" rx="12" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="195" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Skillなどを呼ぶもの</text>
+
+  <rect x="35" y="146" width="155" height="44" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="112" y="173" text-anchor="middle" font-size="14" fill="#1e293b">Skill</text>
+  <rect x="200" y="146" width="155" height="44" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="277" y="173" text-anchor="middle" font-size="14" fill="#1e293b">プロンプトファイル</text>
+
+  <text x="195" y="228" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">書いておいた指示が渡される</text>
+  <text x="195" y="252" text-anchor="middle" font-size="13" fill="#475569">自分で作って増やせる</text>
+
+  <!-- ===== 組み込みのコマンド ===== -->
+  <rect x="390" y="100" width="350" height="180" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="565" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">組み込みのコマンド</text>
+
+  <rect x="405" y="146" width="155" height="44" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="482" y="173" text-anchor="middle" font-size="14" fill="#1e293b">会話を整える</text>
+  <rect x="570" y="146" width="155" height="44" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <text x="647" y="172" text-anchor="middle" font-size="13" fill="#1e293b">別のモデルの視点を足す</text>
+
+  <text x="565" y="228" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">ツールの機能として用意されている</text>
+  <text x="565" y="252" text-anchor="middle" font-size="13" fill="#475569">環境によって並ぶものが変わる</text>
+</svg>

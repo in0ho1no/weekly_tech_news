@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+
+  <!-- 作業するモデル -->
+  <rect x="30" y="80" width="180" height="70" rx="12" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+  <text x="120" y="121" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">作業するモデル</text>
+
+  <!-- 会話・作業の内容 -->
+  <rect x="290" y="56" width="180" height="118" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="380" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">会話・作業の内容</text>
+  <rect x="308" y="96" width="144" height="12" rx="3" fill="#cbd5e1"/>
+  <rect x="308" y="116" width="144" height="12" rx="3" fill="#cbd5e1"/>
+  <rect x="308" y="136" width="110" height="12" rx="3" fill="#cbd5e1"/>
+  <rect x="308" y="156" width="80" height="8" rx="3" fill="#e2e8f0"/>
+
+  <!-- 別のモデル -->
+  <rect x="550" y="80" width="180" height="70" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="640" y="121" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">別のモデル</text>
+
+  <!-- 作業する -->
+  <line x1="212" y1="115" x2="286" y2="115" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="249" y="105" text-anchor="middle" font-size="12" fill="#475569">作業</text>
+
+  <!-- 読む -->
+  <line x1="546" y1="115" x2="474" y2="115" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+  <text x="510" y="105" text-anchor="middle" font-size="12" fill="#4338ca">読む</text>
+
+  <!-- 意見・助言 -->
+  <path d="M640,152 L640,214 L380,214 L380,178" fill="none" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+  <rect x="452" y="200" width="120" height="28" rx="14" fill="#ffffff" stroke="#6366f1"/>
+  <text x="512" y="219" text-anchor="middle" font-size="13" font-weight="bold" fill="#4338ca">意見・助言</text>
+
+  <text x="380" y="262" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">別のモデルも会話の内容を読むため、そのぶん利用量が増える</text>
+  <text x="380" y="284" text-anchor="middle" font-size="13" fill="#475569">確かめておきたい場面に絞って使う</text>
+</svg>
