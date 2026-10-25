@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 510" width="800" height="510" font-family="Meiryo, 'Yu Gothic UI', 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="800" height="510" fill="#ffffff"/>
+
+  <!-- 上段：モデルの中身 -->
+  <text x="400" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">AIモデルの中身</text>
+  <rect x="110" y="52" width="180" height="56" rx="8" fill="#f2f2f2" stroke="#999"/>
+  <text x="200" y="86" text-anchor="middle" font-size="15" fill="#222">計算の仕組み</text>
+  <text x="315" y="88" text-anchor="middle" font-size="22" fill="#555">＋</text>
+  <rect x="340" y="52" width="220" height="56" rx="8" fill="#dbe8f7" stroke="#3b6ea8"/>
+  <text x="450" y="77" text-anchor="middle" font-size="15" fill="#1f4e85">重み</text>
+  <text x="450" y="97" text-anchor="middle" font-size="12" fill="#1f4e85">学習で決まった大量の数値</text>
+  <text x="585" y="88" text-anchor="middle" font-size="22" fill="#555">＝</text>
+  <text x="650" y="86" text-anchor="middle" font-size="15" fill="#222">AIモデル</text>
+
+  <line x1="20" y1="132" x2="780" y2="132" stroke="#ddd"/>
+  <line x1="400" y1="150" x2="400" y2="494" stroke="#ddd"/>
+
+  <!-- ===== 左パネル：サービスとして使う ===== -->
+  <text x="205" y="162" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">サービスとして使う場合</text>
+
+  <rect x="105" y="178" width="200" height="40" rx="20" fill="#ffffff" stroke="#999"/>
+  <text x="205" y="203" text-anchor="middle" font-size="14" fill="#222">ユーザー</text>
+
+  <line x1="150" y1="220" x2="150" y2="270" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="142" y="250" text-anchor="end" font-size="12" fill="#444">入力した文章</text>
+  <line x1="260" y1="270" x2="260" y2="220" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="268" y="250" font-size="12" fill="#444">回答</text>
+
+  <rect x="40" y="272" width="330" height="80" rx="10" fill="#fafafa" stroke="#999"/>
+  <text x="205" y="294" text-anchor="middle" font-size="13" fill="#444">自分の手元（PC）</text>
+  <text x="205" y="328" text-anchor="middle" font-size="14" fill="#222">アプリ・API</text>
+
+  <line x1="150" y1="354" x2="150" y2="404" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="142" y="384" text-anchor="end" font-size="12" fill="#444">入力した文章</text>
+  <line x1="260" y1="404" x2="260" y2="354" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="268" y="384" font-size="12" fill="#444">回答</text>
+
+  <rect x="40" y="406" width="330" height="80" rx="10" fill="#fafafa" stroke="#999"/>
+  <text x="205" y="428" text-anchor="middle" font-size="13" fill="#444">提供元のサーバー</text>
+  <rect x="115" y="438" width="180" height="38" rx="8" fill="#dbe8f7" stroke="#3b6ea8"/>
+  <text x="205" y="462" text-anchor="middle" font-size="14" fill="#1f4e85">モデル（重み）</text>
+
+  <!-- ===== 右パネル：オープンウェイト ===== -->
+  <text x="595" y="162" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">オープンウェイトの場合</text>
+
+  <rect x="495" y="178" width="200" height="40" rx="20" fill="#ffffff" stroke="#999"/>
+  <text x="595" y="203" text-anchor="middle" font-size="14" fill="#222">ユーザー</text>
+
+  <line x1="540" y1="220" x2="540" y2="270" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="532" y="250" text-anchor="end" font-size="12" fill="#444">入力した文章</text>
+  <line x1="650" y1="270" x2="650" y2="220" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="658" y="250" font-size="12" fill="#444">回答</text>
+
+  <rect x="430" y="272" width="330" height="80" rx="10" fill="#fafafa" stroke="#999"/>
+  <text x="595" y="294" text-anchor="middle" font-size="13" fill="#444">自分の手元（PC・サーバー）</text>
+  <rect x="505" y="304" width="180" height="38" rx="8" fill="#dbe8f7" stroke="#3b6ea8"/>
+  <text x="595" y="328" text-anchor="middle" font-size="14" fill="#1f4e85">モデル（重み）</text>
+
+  <line x1="595" y1="404" x2="595" y2="354" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="605" y="384" font-size="12" fill="#444">重みを配布</text>
+
+  <rect x="430" y="406" width="330" height="80" rx="10" fill="#fafafa" stroke="#999"/>
+  <text x="595" y="428" text-anchor="middle" font-size="13" fill="#444">提供元のサーバー</text>
+  <text x="595" y="462" text-anchor="middle" font-size="12" fill="#666">入力した文章は届かない</text>
+</svg>
