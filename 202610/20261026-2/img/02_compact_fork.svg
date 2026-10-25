@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="340" fill="#ffffff"/>
+
+  <!-- ===== /compact ===== -->
+  <text x="195" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">/compact：要約して枠を空ける</text>
+
+  <!-- 要約前 -->
+  <text x="100" y="58" text-anchor="middle" font-size="13" fill="#475569">要約前</text>
+  <rect x="40" y="68" width="120" height="196" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="6 4"/>
+  <rect x="52" y="78" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="108" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="138" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="168" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="198" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="228" width="96" height="22" rx="4" fill="#cbd5e1"/>
+
+  <line x1="172" y1="166" x2="216" y2="166" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+
+  <!-- 要約後 -->
+  <text x="290" y="58" text-anchor="middle" font-size="13" fill="#475569">要約後</text>
+  <rect x="230" y="68" width="120" height="196" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="6 4"/>
+  <rect x="242" y="78" width="96" height="44" rx="4" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="290" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">要約</text>
+  <text x="290" y="200" text-anchor="middle" font-size="14" fill="#64748b">空き</text>
+
+  <text x="195" y="296" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">同じ会話を続けられる</text>
+  <text x="195" y="318" text-anchor="middle" font-size="13" fill="#475569">細かいやり取りは残らないことがある</text>
+
+  <!-- 区切り -->
+  <line x1="380" y1="20" x2="380" y2="320" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- ===== /fork ===== -->
+  <text x="575" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">/fork：履歴ごと複製して分ける</text>
+
+  <!-- これまでの会話 -->
+  <text x="575" y="58" text-anchor="middle" font-size="13" fill="#475569">これまでの会話</text>
+  <rect x="515" y="68" width="120" height="96" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <rect x="527" y="78" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="527" y="108" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="527" y="138" width="96" height="18" rx="4" fill="#cbd5e1"/>
+
+  <line x1="555" y1="164" x2="480" y2="196" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="595" y1="164" x2="670" y2="196" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+
+  <!-- 元の会話 -->
+  <rect x="405" y="200" width="150" height="64" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="480" y="227" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">元の会話</text>
+  <text x="480" y="249" text-anchor="middle" font-size="13" fill="#475569">そのまま残る</text>
+
+  <!-- 複製した会話 -->
+  <rect x="595" y="200" width="150" height="64" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="670" y="227" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">複製した会話</text>
+  <text x="670" y="249" text-anchor="middle" font-size="13" fill="#475569">別のやり方を試す</text>
+
+  <text x="575" y="296" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">うまくいかなくても元の会話に戻れる</text>
+  <text x="575" y="318" text-anchor="middle" font-size="13" fill="#475569">途中の時点から分けることもできる</text>
+</svg>
