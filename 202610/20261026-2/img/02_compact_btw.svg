@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="340" fill="#ffffff"/>
+
+  <!-- ===== /compact ===== -->
+  <text x="195" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">/compact：要約して枠を空ける</text>
+
+  <!-- 要約前 -->
+  <text x="100" y="58" text-anchor="middle" font-size="13" fill="#475569">要約前</text>
+  <rect x="40" y="68" width="120" height="196" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="6 4"/>
+  <rect x="52" y="78" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="108" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="138" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="168" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="198" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="52" y="228" width="96" height="22" rx="4" fill="#cbd5e1"/>
+
+  <line x1="172" y1="166" x2="216" y2="166" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+
+  <!-- 要約後 -->
+  <text x="290" y="58" text-anchor="middle" font-size="13" fill="#475569">要約後</text>
+  <rect x="230" y="68" width="120" height="196" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="6 4"/>
+  <rect x="242" y="78" width="96" height="44" rx="4" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="290" y="105" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">要約</text>
+  <text x="290" y="200" text-anchor="middle" font-size="14" fill="#64748b">空き</text>
+
+  <text x="195" y="296" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">同じ会話を続けられる</text>
+  <text x="195" y="318" text-anchor="middle" font-size="13" fill="#475569">要約にも利用量がかかる</text>
+
+  <!-- 区切り -->
+  <line x1="380" y1="20" x2="380" y2="320" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- ===== /btw ===== -->
+  <text x="575" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">/btw：履歴に残さずに質問する</text>
+
+  <!-- 会話の履歴 -->
+  <text x="470" y="58" text-anchor="middle" font-size="13" fill="#475569">会話の履歴</text>
+  <rect x="410" y="68" width="120" height="196" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <rect x="422" y="78" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="422" y="108" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="422" y="138" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <rect x="422" y="168" width="96" height="22" rx="4" fill="#cbd5e1"/>
+  <text x="470" y="230" text-anchor="middle" font-size="13" fill="#64748b">作業は続く</text>
+  <line x1="470" y1="196" x2="470" y2="214" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- 横の質問 -->
+  <rect x="580" y="96" width="160" height="104" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="660" y="128" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">質問と答え</text>
+  <text x="660" y="154" text-anchor="middle" font-size="13" fill="#475569">会話の内容から</text>
+  <text x="660" y="174" text-anchor="middle" font-size="13" fill="#475569">答える</text>
+
+  <line x1="532" y1="148" x2="576" y2="148" stroke="#6366f1" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrowAccent)"/>
+  <text x="554" y="138" text-anchor="middle" font-size="12" fill="#4338ca">参照</text>
+
+  <text x="660" y="230" text-anchor="middle" font-size="13" fill="#4338ca">履歴には残らない</text>
+
+  <text x="575" y="296" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">作業中でも使え、作業を止めない</text>
+  <text x="575" y="318" text-anchor="middle" font-size="13" fill="#475569">ファイルを読む・検索するなどの操作はしない</text>
+</svg>
