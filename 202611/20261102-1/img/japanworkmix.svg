@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" font-family="Meiryo, 'Yu Gothic UI', 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif">
+  <rect width="820" height="430" fill="#ffffff"/>
+  <text x="290" y="24" font-size="13" fill="#666">仕事に関係するメッセージに占める割合（日本・2026年7〜9月）</text>
+  <text x="278" y="57.0" text-anchor="end" font-size="14" fill="#1f4e85" font-weight="bold">文章や文書の編集</text>
+  <rect x="290" y="40" width="440.0" height="24" rx="3" fill="#3b6ea8" stroke="#3b6ea8"/>
+  <text x="740.0" y="57.0" font-size="14" font-weight="bold" fill="#1f4e85">約15%</text>
+  <text x="278" y="97.0" text-anchor="end" font-size="14" fill="#333">ビジュアルデザイン・表示物の作成</text>
+  <rect x="290" y="80" width="202.0" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="278" y="137.0" text-anchor="end" font-size="14" fill="#333">言語や文化に関する情報の解釈</text>
+  <rect x="290" y="120" width="137.4" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="278" y="177.0" text-anchor="end" font-size="14" fill="#333">教育や進路・職業に関する助言</text>
+  <rect x="290" y="160" width="128.9" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="278" y="217.0" text-anchor="end" font-size="14" fill="#333">販促資料の作成</text>
+  <rect x="290" y="200" width="108.3" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="278" y="257.0" text-anchor="end" font-size="14" fill="#333">コンピューターのトラブル解決</text>
+  <rect x="290" y="240" width="94.9" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="278" y="297.0" text-anchor="end" font-size="14" fill="#333">商品やサービスに関する情報の取得</text>
+  <rect x="290" y="280" width="91.6" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="278" y="337.0" text-anchor="end" font-size="14" fill="#333">プログラミング</text>
+  <rect x="290" y="320" width="87.3" height="24" rx="3" fill="#dbe8f7" stroke="#9bb8d9"/>
+  <text x="290" y="382" font-size="13" fill="#555">2位以下は数%ずつの活動が並ぶ（ここに挙げたのは一部）</text>
+  <text x="800" y="416" text-anchor="end" font-size="11" fill="#888">数値には統計的なノイズが含まれるため、細かい順位の差は目安</text>
+</svg>
