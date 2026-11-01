@@ -23,7 +23,7 @@ GitHub Copilot Businessユーザ向けに書いています。
 :::
 
 :::tip
-本記事は、新しいチャットを始めるときに「Session Target」で「Copilot」を選んだセッションを前提にしています。  
+本記事は、新しいチャットを始めるときに「Session Target」で「Copilot」を選んだセッションを前提にしています。
 「ローカル」を選んだセッションでは、使える項目や動きが一部異なります。
 :::
 
@@ -59,7 +59,6 @@ VS CodeのGitHub Copilot Chatでは、`.github/agents/`に`.agent.md`ファイ�
 
 ただし、サブエージェントを否定しているわけではありません。  
 分けた方がよくなるかを確かめ、よくなる場合だけ残す、という立場です。  
-この考え方は、手元でGitHub Copilot Chatを使う場合にも当てはめられます。  
 
 :::source
 Claude「Building agents: When to fold subagents into your main agent loop」
@@ -70,7 +69,7 @@ Claude「Building agents: When to fold subagents into your main agent loop」
 
 ### サブエージェントの動き
 
-サブエージェントは、メインのエージェントとは別のコンテキスト（AIが一度に扱える情報の枠）で作業し、まとめた結果をメインのエージェントに返します。  
+サブエージェントは、メインのエージェントとは別のコンテキストで作業し、まとめた結果をメインのエージェントに返します。  
 「Copilot」のセッションでは、依頼文の中でサブエージェントを使うよう頼むこともできますし、任せるかどうかをメインのエージェントに判断させることもできます。  
 
 公式ドキュメントでは、任せるとそのぶんモデルの利用量と受け渡しの手間が増えるため、効果と費用の両方を考えるよう説明されています。  
@@ -127,20 +126,9 @@ VS Code Docs「Subagents」
 Copilot Businessでは、管理者の設定によって使えないモデルがあります。  
 配列で2つ目以降の候補を書いておくと、先頭のモデルが使えない場合にも動かせます。  
 
-:::info
-モデルの振り分けそのものを任せたい場合は、モデルの選択欄で「Copilot Fusion」を選ぶ方法もあります。  
-Fusionは、依頼ごとに使うモデルや進め方を選ぶ仕組みです。サブエージェントとは別に動き、サブエージェントを起動するものではありません。  
-どの作業をどのモデルにさせるかを自分で決めておきたい場合は、カスタムエージェントの`model`が向いています。
-:::
-
 :::source
 VS Code Docs「Custom agent file reference」
 <https://code.visualstudio.com/docs/agents/reference/custom-agent-file-reference>
-:::
-
-:::source
-GitHub Docs「About GitHub Copilot Fusion」
-<https://docs.github.com/en/copilot/concepts/models/copilot-fusion>
 :::
 
 ## やってみよう
@@ -189,7 +177,8 @@ user-invocable: false
 ### 呼び出して、戻ってきたものを見る
 
 1. 新しいチャットを始め、「Session Target」で「Copilot」を選ぶ。
-2. 次のように、サブエージェントを使うよう頼んで送る。
+2. 次のように、サブエージェントを使うよう頼んで送る。  
+※ ピッカーから選択することも出来ます。
 3. メインのエージェントに戻ってきた結果を読む。
 4. チャット入力欄のコンテキストウィンドウの表示にカーソルを合わせ、枠の埋まり方を確認する。
 
