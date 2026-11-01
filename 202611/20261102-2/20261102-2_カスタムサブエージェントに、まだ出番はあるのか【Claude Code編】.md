@@ -8,7 +8,7 @@ export_on_save:
   html: true
 ---
 
-# サブエージェントに、まだ出番はあるのか【Claude Code編】
+# カスタムサブエージェントに、まだ出番はあるのか【Claude Code編】
 
 :::warning
 業務でのAI利用は各所属のルールに従ってください。
