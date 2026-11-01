@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="380" fill="#ffffff"/>
+
+  <!-- メイン -->
+  <text x="160" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">メインの会話</text>
+  <rect x="50" y="48" width="220" height="230" rx="10" fill="#f8fafc" stroke="#94a3b8"/>
+  <rect x="70" y="64" width="180" height="24" rx="4" fill="#cbd5e1"/>
+  <rect x="70" y="96" width="180" height="24" rx="4" fill="#cbd5e1"/>
+  <rect x="70" y="128" width="180" height="24" rx="4" fill="#cbd5e1"/>
+  <rect x="70" y="160" width="180" height="32" rx="4" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="160" y="181" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">要約</text>
+  <text x="160" y="240" text-anchor="middle" font-size="14" fill="#64748b">空き</text>
+
+  <!-- サブ -->
+  <text x="590" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">サブエージェント</text>
+  <rect x="480" y="48" width="220" height="230" rx="10" fill="#f8fafc" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="590" y="72" text-anchor="middle" font-size="12" fill="#4338ca">別のコンテキストで作業</text>
+  <rect x="500" y="84" width="180" height="26" rx="4" fill="#cbd5e1"/>
+  <text x="590" y="102" text-anchor="middle" font-size="13" fill="#334155">ファイルの中身</text>
+  <rect x="500" y="118" width="180" height="26" rx="4" fill="#cbd5e1"/>
+  <text x="590" y="136" text-anchor="middle" font-size="13" fill="#334155">検索の結果</text>
+  <rect x="500" y="152" width="180" height="26" rx="4" fill="#cbd5e1"/>
+  <text x="590" y="170" text-anchor="middle" font-size="13" fill="#334155">ログ</text>
+  <rect x="500" y="186" width="180" height="26" rx="4" fill="#cbd5e1"/>
+  <text x="590" y="204" text-anchor="middle" font-size="13" fill="#334155">途中のやり取り</text>
+  <text x="590" y="244" text-anchor="middle" font-size="12" fill="#475569">メインの会話の履歴は見えない</text>
+
+  <!-- 矢印 -->
+  <line x1="282" y1="96" x2="468" y2="96" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="375" y="86" text-anchor="middle" font-size="13" fill="#475569">作業内容をまとめて渡す</text>
+  <line x1="468" y1="176" x2="282" y2="176" stroke="#6366f1" stroke-width="2.5" marker-end="url(#arrowAccent)"/>
+  <text x="375" y="166" text-anchor="middle" font-size="13" font-weight="bold" fill="#4338ca">要約だけを返す</text>
+  <text x="375" y="200" text-anchor="middle" font-size="12" fill="#4338ca">途中経過は戻らない</text>
+
+  <!-- 下部 -->
+  <line x1="40" y1="300" x2="720" y2="300" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="380" y="328" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">メインの枠は途中経過で埋まりにくい</text>
+  <text x="380" y="352" text-anchor="middle" font-size="13" fill="#475569">その代わり、戻るのは要約なので、細かいところは落ちることがある</text>
+</svg>
