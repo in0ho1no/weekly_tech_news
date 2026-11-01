@@ -368,6 +368,24 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 26/10/26
 
+### ChatGPTは仕事で何に使われている？
+
+- 元記事:
+  - <https://gigazine.net/news/20261027-chatgpt-work-report/>
+- 検討日: 26/10/30
+- ステータス: 共有済み
+- 共有日: 26/11/02
+
+### サブエージェントに、まだ出番はあるのか（仮題）
+
+- 元記事:
+  - <https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop>
+  - <https://code.claude.com/docs/en/sub-agents>
+  - <https://docs.github.com/en/copilot/concepts/models/copilot-fusion>
+- 検討日: 26/10/30
+- ステータス: 共有済み
+- 共有日: 26/11/02
+
 ### ノールックで許可を押してしまう
 
 - 元記事:
