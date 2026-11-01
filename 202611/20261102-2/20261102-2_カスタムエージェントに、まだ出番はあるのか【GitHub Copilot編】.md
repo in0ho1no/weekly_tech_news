@@ -59,6 +59,8 @@ VS CodeのGitHub Copilot Chatでは、`.github/agents/`に`.agent.md`ファイ�
 
 ただし、サブエージェントを否定しているわけではありません。  
 分けた方がよくなるかを確かめ、よくなる場合だけ残す、という立場です。  
+これはClaudeのエージェント構築に関する報告であり、Copilotでも同じ結果が確認されたという意味ではありません。  
+本記事ではこの考え方を判断の出発点とし、Copilotの使い方はVS Codeの公式ドキュメントをもとに整理します。  
 
 :::source
 Claude「Building agents: When to fold subagents into your main agent loop」
