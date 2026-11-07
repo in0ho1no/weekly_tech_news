@@ -376,7 +376,7 @@ export_on_save:
 - ステータス: 共有済み
 - 共有日: 26/11/02
 
-### サブエージェントに、まだ出番はあるのか（仮題）
+### サブエージェントに、まだ出番はあるのか
 
 - 元記事:
   - <https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop>
@@ -391,12 +391,27 @@ export_on_save:
 - 元記事:
   - <https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news018.html>
 - 検討日: 26/09/13
-- ステータス: 検討中
-- 共有日: 未共有
-- メモ: 危険コマンドの停止率がAI 89%に対し人間14%という数字を起点に、
-  Claude Codeが自動モードをデフォルト化した理由を扱う。
-  26/06/22で見送った認知的降伏（ペンシルベニア大）と結ぶ構想。
-  ただし注意喚起系に寄りやすいため、着地の設計が課題。
+- ステータス: 別経路で共有済み
+- 共有日: -
+
+### AIの土台の方針と、その上に重ねる指示
+
+- 元記事:
+  - <https://gigazine.net/news/20261030-openai-model-spec-five-principles/>
+  - <https://openai.com/ja-JP/index/updated-model-spec/>
+  - <https://model-spec.openai.com/2026-10-29.html>
+- 検討日: 26/11/07
+- ステータス: 共有済み
+- 共有日: 26/11/09
+
+### その回答、次はAIに読ませよう
+
+- 元記事:
+  - <https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html>
+  - <https://forest.watch.impress.co.jp/docs/serial/yajiuma/2153596.html>
+- 検討日: 26/11/07
+- ステータス: 共有済み
+- 共有日: 26/11/09
 
 ### ほめられても、けなされても
 
