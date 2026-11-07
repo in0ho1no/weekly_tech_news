@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6366f1"/>
+    </marker>
+  </defs>
+  <rect width="760" height="420" fill="#ffffff"/>
+
+  <!-- 質問 -->
+  <rect x="30" y="126" width="120" height="48" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="90" y="156" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">疑問・調査</text>
+  <line x1="150" y1="150" x2="208" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- AI -->
+  <rect x="210" y="110" width="180" height="80" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="300" y="144" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">AIが調べる</text>
+  <text x="300" y="168" text-anchor="middle" font-size="12" fill="#4338ca">最初にメモを読む</text>
+
+  <!-- メモ（文書） -->
+  <path d="M230,290 h112 l28,22 v66 h-140 z" fill="#ffffff" stroke="#6366f1" stroke-width="2"/>
+  <path d="M342,290 v22 h28" fill="none" stroke="#6366f1" stroke-width="2"/>
+  <text x="300" y="334" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">回答のメモ</text>
+  <text x="300" y="356" text-anchor="middle" font-size="12" fill="#475569">質問・回答・根拠・日付</text>
+  <line x1="300" y1="288" x2="300" y2="194" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+  <text x="310" y="246" font-size="12" fill="#4338ca">読む</text>
+
+  <!-- 解決 -->
+  <line x1="390" y1="130" x2="476" y2="84" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="88" font-size="12" fill="#334155">答えがある</text>
+  <rect x="480" y="50" width="240" height="56" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="600" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">メモで解決</text>
+  <text x="600" y="96" text-anchor="middle" font-size="12" fill="#047857">詳しい人に届かずに済む</text>
+
+  <!-- 詳しい人 -->
+  <line x1="390" y1="172" x2="476" y2="226" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="428" y="166" font-size="12" fill="#334155">答えがない</text>
+  <text x="428" y="182" font-size="12" fill="#334155">食い違う</text>
+  <rect x="480" y="210" width="240" height="56" rx="10" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="600" y="236" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">詳しい人が確かめる</text>
+  <text x="600" y="256" text-anchor="middle" font-size="12" fill="#475569">確かめていない点だけを見る</text>
+
+  <!-- 追記 -->
+  <path d="M600,266 V334 H374" fill="none" stroke="#6366f1" stroke-width="2" marker-end="url(#arrowAccent)"/>
+  <text x="490" y="324" text-anchor="middle" font-size="12" fill="#4338ca">質問した側が回答を追記</text>
+
+  <text x="380" y="404" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">確かめた結果がメモに残り、次の調査の出発点になる</text>
+</svg>

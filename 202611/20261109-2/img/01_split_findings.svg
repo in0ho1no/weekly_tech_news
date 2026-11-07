@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="760" height="360" fill="#ffffff"/>
+
+  <!-- 左：一続きの文章 -->
+  <text x="180" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">一続きの文章で渡す</text>
+  <rect x="50" y="48" width="260" height="200" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="70" y="68" width="220" height="14" rx="3" fill="#cbd5e1"/>
+  <rect x="70" y="92" width="190" height="14" rx="3" fill="#cbd5e1"/>
+  <rect x="70" y="116" width="215" height="14" rx="3" fill="#cbd5e1"/>
+  <rect x="70" y="140" width="170" height="14" rx="3" fill="#cbd5e1"/>
+  <rect x="70" y="164" width="210" height="14" rx="3" fill="#cbd5e1"/>
+  <rect x="70" y="188" width="180" height="14" rx="3" fill="#cbd5e1"/>
+  <rect x="70" y="212" width="200" height="14" rx="3" fill="#cbd5e1"/>
+  <text x="180" y="278" text-anchor="middle" font-size="13" fill="#334155">事実と推測が混ざり、どこが確かか分からない</text>
+  <text x="180" y="304" text-anchor="middle" font-size="14" font-weight="bold" fill="#c2410c">受け手は全体を見直す</text>
+
+  <!-- 中央の矢印 -->
+  <line x1="330" y1="148" x2="400" y2="148" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 右：3つに分けた報告 -->
+  <text x="575" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">3つに分けて渡す</text>
+  <rect x="420" y="48" width="310" height="200" rx="10" fill="#f8fafc" stroke="#94a3b8"/>
+
+  <rect x="436" y="62" width="278" height="52" rx="6" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+  <text x="450" y="84" font-size="14" font-weight="bold" fill="#1e293b">確認した事実</text>
+  <rect x="450" y="92" width="150" height="16" rx="3" fill="#ffffff" stroke="#6366f1"/>
+  <text x="458" y="104" font-size="11" fill="#4338ca">根拠：ファイル名・行</text>
+
+  <rect x="436" y="122" width="278" height="52" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="450" y="144" font-size="14" font-weight="bold" fill="#1e293b">推測</text>
+  <text x="450" y="164" font-size="12" fill="#475569">そう考えた理由</text>
+
+  <rect x="436" y="182" width="278" height="52" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="450" y="204" font-size="14" font-weight="bold" fill="#1e293b">確かめていないこと</text>
+  <text x="450" y="224" font-size="12" fill="#475569">未確認の点・判断がつかなかった点</text>
+
+  <text x="575" y="278" text-anchor="middle" font-size="13" fill="#334155">事実は根拠の場所を開いて確かめる</text>
+  <text x="575" y="304" text-anchor="middle" font-size="14" font-weight="bold" fill="#4338ca">残りの時間を推測と未確認に充てられる</text>
+</svg>
