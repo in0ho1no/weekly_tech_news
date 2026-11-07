@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" font-family="Meiryo, 'Yu Gothic UI', 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif">
-  <rect width="820" height="430" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 450" width="820" height="450" font-family="Meiryo, 'Yu Gothic UI', 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif">
+  <rect width="820" height="450" fill="#ffffff"/>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#666"/>
@@ -7,37 +7,38 @@
   </defs>
 
   <!-- 使う人の指示 -->
-  <rect x="120" y="40" width="490" height="64" rx="8" fill="#ffffff" stroke="#3b6ea8"/>
-  <text x="365" y="68" text-anchor="middle" font-size="15" fill="#1f4e85">使う人の指示</text>
-  <text x="365" y="90" text-anchor="middle" font-size="12" fill="#555">用途に合わせた依頼・答え方の希望</text>
+  <rect x="75" y="32" width="490" height="64" rx="8" fill="#ffffff" stroke="#3b6ea8"/>
+  <text x="320" y="60" text-anchor="middle" font-size="15" fill="#1f4e85">使う人の指示</text>
+  <text x="320" y="82" text-anchor="middle" font-size="12" fill="#555">用途に合わせた依頼・答え方の希望</text>
 
-  <!-- 開発者の設定 -->
-  <rect x="120" y="120" width="490" height="64" rx="8" fill="#ffffff" stroke="#3b6ea8"/>
-  <text x="365" y="148" text-anchor="middle" font-size="15" fill="#1f4e85">開発者の指示</text>
-  <text x="365" y="170" text-anchor="middle" font-size="12" fill="#555">アプリやサービスの用途・範囲の設定</text>
+  <!-- 開発者の指示 -->
+  <rect x="75" y="112" width="490" height="64" rx="8" fill="#ffffff" stroke="#3b6ea8"/>
+  <text x="320" y="140" text-anchor="middle" font-size="15" fill="#1f4e85">開発者の指示</text>
+  <text x="320" y="162" text-anchor="middle" font-size="12" fill="#555">アプリやサービスの用途・範囲の設定</text>
 
   <!-- 提供元の方針（土台） -->
-  <rect x="120" y="200" width="490" height="160" rx="8" fill="#f2f6fb" stroke="#3b6ea8"/>
-  <text x="365" y="226" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f4e85">提供元の方針（土台）</text>
+  <rect x="75" y="192" width="490" height="160" rx="8" fill="#f2f6fb" stroke="#3b6ea8"/>
+  <text x="320" y="218" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f4e85">提供元の方針（土台）</text>
 
-  <rect x="136" y="242" width="160" height="102" rx="6" fill="#3b6ea8" stroke="#3b6ea8"/>
-  <text x="216" y="282" text-anchor="middle" font-size="14" fill="#ffffff">外せない線</text>
-  <text x="216" y="304" text-anchor="middle" font-size="12" fill="#ffffff">人や社会を守る</text>
-  <text x="216" y="322" text-anchor="middle" font-size="12" fill="#ffffff">厳格な制約</text>
+  <rect x="91" y="234" width="160" height="102" rx="6" fill="#3b6ea8" stroke="#3b6ea8"/>
+  <text x="171" y="266" text-anchor="middle" font-size="14" fill="#ffffff">外せない線</text>
+  <text x="171" y="290" text-anchor="middle" font-size="12" fill="#ffffff">人や社会を守る</text>
+  <text x="171" y="312" text-anchor="middle" font-size="12" fill="#ffffff">厳格な制約</text>
 
-  <rect x="310" y="242" width="284" height="102" rx="6" fill="#ffffff" stroke="#3b6ea8" stroke-dasharray="6 4"/>
-  <text x="452" y="274" text-anchor="middle" font-size="14" fill="#1f4e85">既定のふるまい（大部分）</text>
-  <text x="452" y="298" text-anchor="middle" font-size="12" fill="#555">特に指示がないときの動き方</text>
-  <text x="452" y="320" text-anchor="middle" font-size="12" fill="#555">開発者や使う人の指示で変えられる</text>
+  <rect x="265" y="234" width="284" height="102" rx="6" fill="#ffffff" stroke="#3b6ea8" stroke-dasharray="6 4"/>
+  <text x="407" y="266" text-anchor="middle" font-size="14" fill="#1f4e85">既定のふるまい（大部分）</text>
+  <text x="407" y="290" text-anchor="middle" font-size="12" fill="#555">特に指示がないときの動き方</text>
+  <text x="407" y="312" text-anchor="middle" font-size="12" fill="#555">開発者や使う人の指示で変えられる</text>
 
   <!-- 右側の矢印 -->
-  <line x1="670" y1="350" x2="670" y2="50" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="670" y="380" text-anchor="middle" font-size="12" fill="#333">上に指示を</text>
-  <text x="670" y="397" text-anchor="middle" font-size="12" fill="#333">重ねる</text>
+  <line x1="625" y1="342" x2="625" y2="42" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="625" y="372" text-anchor="middle" font-size="12" fill="#333">上に指示を</text>
+  <text x="625" y="389" text-anchor="middle" font-size="12" fill="#333">重ねる</text>
 
-  <line x1="755" y1="50" x2="755" y2="350" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="755" y="380" text-anchor="middle" font-size="12" fill="#333">食い違ったら</text>
-  <text x="755" y="397" text-anchor="middle" font-size="12" fill="#333">下ほど優先</text>
+  <line x1="715" y1="42" x2="715" y2="342" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="715" y="372" text-anchor="middle" font-size="12" fill="#333">食い違ったら</text>
+  <text x="715" y="389" text-anchor="middle" font-size="12" fill="#333">下ほど優先</text>
+  <text x="715" y="406" text-anchor="middle" font-size="11" fill="#666">（既定を除く）</text>
 
-  <text x="800" y="422" text-anchor="end" font-size="11" fill="#888">記事向けに簡略化した図（Model Specでは提供元の方針をさらに細かい段に分けている）</text>
+  <text x="800" y="436" text-anchor="end" font-size="11" fill="#888">記事向けに簡略化した図（Model Specでは提供元の方針をさらに細かい段に分けている）</text>
 </svg>
